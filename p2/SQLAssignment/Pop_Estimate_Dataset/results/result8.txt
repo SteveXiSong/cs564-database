@@ -1,0 +1,9 @@
+East North Central|Wisconsin|8338
+East South Central|Tennessee|13514
+Middle Atlantic|Pennsylvania|9566
+Mountain|Arizona|15848
+New England|Massachusetts|8546
+Pacific|California|32308
+South Atlantic|Florida|29904
+West North Central|Missouri|8552
+West South Central|Texas|97038

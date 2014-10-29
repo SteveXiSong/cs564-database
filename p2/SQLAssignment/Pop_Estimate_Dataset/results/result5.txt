@@ -1,0 +1,366 @@
+Abilene, TX|-11
+Akron, OH|-2433
+Albany, GA|-821
+Albany-Schenectady-Troy, NY|-1002
+Albuquerque, NM|3585
+Alexandria, LA|-282
+Allentown-Bethlehem-Easton, PA-NJ|1279
+Altoona, PA|282
+Amarillo, TX|1294
+Ames, IA|-394
+Anchorage, AK|252
+Anderson, IN|-629
+Anderson, SC|845
+Ann Arbor, MI|1004
+Anniston-Oxford, AL|-670
+Appleton, WI|140
+Asheville, NC|3536
+Athens-Clarke County, GA|-616
+Atlanta-Sandy Springs-Marietta, GA|29789
+Atlantic City-Hammonton, NJ|-1196
+Auburn-Opelika, AL|1966
+Augusta-Richmond County, GA-SC|1800
+Austin-Round Rock-San Marcos, TX|36803
+Bakersfield-Delano, CA|-143
+Baltimore-Towson, MD|3663
+Bangor, ME|-146
+Barnstable Town, MA|785
+Baton Rouge, LA|-1459
+Battle Creek, MI|-929
+Bay City, MI|-628
+Beaumont-Port Arthur, TX|-143
+Bellingham, WA|1154
+Bend, OR|1785
+Billings, MT|935
+Binghamton, NY|-1447
+Birmingham-Hoover, AL|-1207
+Bismarck, ND|957
+Blacksburg-Christiansburg-Radford, VA|-795
+Bloomington, IN|478
+Bloomington-Normal, IL|-321
+Boise City-Nampa, ID|4954
+Boston-Cambridge-Quincy, MA-NH|13867
+Boulder, CO|2647
+Bowling Green, KY|676
+Bremerton-Silverdale, WA|1950
+Bridgeport-Stamford-Norwalk, CT|3423
+Brownsville-Harlingen, TX|579
+Brunswick, GA|45
+Buffalo-Niagara Falls, NY|-1373
+Burlington, NC|1346
+Burlington-South Burlington, VT|308
+Canton-Massillon, OH|-699
+Cape Coral-Fort Myers, FL|10411
+Cape Girardeau-Jackson, MO-IL|315
+Carson City, NV|186
+Casper, WY|523
+Cedar Rapids, IA|1032
+Champaign-Urbana, IL|-975
+Charleston, WV|-510
+Charleston-North Charleston-Summerville, SC|9786
+Charlotte-Gastonia-Rock Hill, NC-SC|18359
+Charlottesville, VA|1045
+Chattanooga, TN-GA|2956
+Cheyenne, WY|11
+Chicago-Joliet-Naperville, IL-IN-WI|-29486
+Chico, CA|58
+Cincinnati-Middletown, OH-KY-IN|-4997
+Clarksville, TN-KY|-287
+Cleveland, TN|633
+Cleveland-Elyria-Mentor, OH|-10625
+Coeur d'Alene, ID|1638
+College Station-Bryan, TX|301
+Colorado Springs, CO|4359
+Columbia, MO|1357
+Columbia, SC|3381
+Columbus, GA-AL|4158
+Columbus, IN|610
+Columbus, OH|5548
+Corpus Christi, TX|679
+Corvallis, OR|188
+Crestview-Fort Walton Beach-Destin, FL|1683
+Cumberland, MD-WV|-217
+Dallas-Fort Worth-Arlington, TX|62312
+Dalton, GA|-578
+Danville, IL|-222
+Danville, VA|-424
+Davenport-Moline-Rock Island, IA-IL|-262
+Dayton, OH|1095
+Decatur, AL|-175
+Decatur, IL|-315
+Deltona-Daytona Beach-Ormond Beach, FL|1297
+Denver-Aurora-Broomfield, CO|24769
+Des Moines-West Des Moines, IA|4020
+Detroit-Warren-Livonia, MI|-16702
+Dothan, AL|378
+Dover, DE|1155
+Dubuque, IA|417
+Duluth, MN-WI|-3
+Durham-Chapel Hill, NC|3916
+Eau Claire, WI|604
+El Centro, CA|-297
+Elizabethtown, KY|-256
+Elkhart-Goshen, IN|-207
+Elmira, NY|-15
+El Paso, TX|7455
+Erie, PA|-546
+Eugene-Springfield, OR|1134
+Evansville, IN-KY|75
+Fairbanks, AK|-340
+Fargo, ND-MN|1113
+Farmington, NM|-3229
+Fayetteville, NC|2047
+Fayetteville-Springdale-Rogers, AR-MO|4213
+Flagstaff, AZ|-1206
+Flint, MI|-4185
+Florence, SC|-43
+Florence-Muscle Shoals, AL|244
+Fond du Lac, WI|126
+Fort Collins-Loveland, CO|3314
+Fort Smith, AR-OK|147
+Fort Wayne, IN|-93
+Fresno, CA|-55
+Gadsden, AL|81
+Gainesville, FL|840
+Gainesville, GA|1469
+Glens Falls, NY|-61
+Goldsboro, NC|427
+Grand Forks, ND-MN|-999
+Grand Junction, CO|123
+Grand Rapids-Wyoming, MI|272
+Great Falls, MT|-104
+Greeley, CO|1924
+Green Bay, WI|501
+Greensboro-High Point, NC|3448
+Greenville, NC|1448
+Greenville-Mauldin-Easley, SC|4184
+Gulfport-Biloxi, MS|2393
+Hagerstown-Martinsburg, MD-WV|949
+Hanford-Corcoran, CA|-1194
+Harrisburg-Carlisle, PA|305
+Harrisonburg, VA|657
+Hartford-West Hartford-East Hartford, CT|-1683
+Hattiesburg, MS|1129
+Hickory-Lenoir-Morganton, NC|-1100
+Hinesville-Fort Stewart, GA|1932
+Holland-Grand Haven, MI|691
+Honolulu, HI|1649
+Hot Springs, AR|1038
+Houma-Bayou Cane-Thibodaux, LA|-929
+Houston-Sugar Land-Baytown, TX|45685
+Huntington-Ashland, WV-KY-OH|-135
+Huntsville, AL|4114
+Idaho Falls, ID|-338
+Indianapolis-Carmel, IN|4893
+Iowa City, IA|820
+Ithaca, NY|-261
+Jackson, MI|-743
+Jackson, MS|2336
+Jackson, TN|-588
+Jacksonville, FL|4846
+Jacksonville, NC|-3165
+Janesville, WI|-828
+Jefferson City, MO|-39
+Johnson City, TN|905
+Johnstown, PA|-386
+Jonesboro, AR|1030
+Joplin, MO|154
+Kalamazoo-Portage, MI|58
+Kankakee-Bradley, IL|-216
+Kansas City, MO-KS|189
+Kennewick-Pasco-Richland, WA|5768
+Killeen-Temple-Fort Hood, TX|-1573
+Kingsport-Bristol-Bristol, TN-VA|670
+Kingston, NY|-128
+Knoxville, TN|3754
+Kokomo, IN|-106
+La Crosse, WI-MN|180
+Lafayette, IN|468
+Lafayette, LA|905
+Lake Charles, LA|-241
+Lake Havasu City-Kingman, AZ|1188
+Lakeland-Winter Haven, FL|4832
+Lancaster, PA|686
+Lansing-East Lansing, MI|-686
+Laredo, TX|385
+Las Cruces, NM|1229
+Las Vegas-Paradise, NV|1654
+Lawrence, KS|333
+Lawton, OK|-750
+Lebanon, PA|360
+Lewiston, ID-WA|459
+Lewiston-Auburn, ME|-626
+Lexington-Fayette, KY|2750
+Lima, OH|-417
+Lincoln, NE|1220
+Little Rock-North Little Rock-Conway, AR|3752
+Logan, UT-ID|-670
+Longview, TX|990
+Longview, WA|-253
+Los Angeles-Long Beach-Santa Ana, CA|4176
+Louisville/Jefferson County, KY-IN|3597
+Lubbock, TX|1712
+Lynchburg, VA|819
+Macon, GA|-270
+Madera-Chowchilla, CA|-31
+Madison, WI|3089
+Manchester-Nashua, NH|-1000
+Manhattan, KS|-33
+Mankato-North Mankato, MN|-51
+Mansfield, OH|-971
+McAllen-Edinburg-Mission, TX|4568
+Medford, OR|1092
+Memphis, TN-MS-AR|-1092
+Merced, CA|399
+Miami-Fort Lauderdale-Pompano Beach, FL|71406
+Michigan City-La Porte, IN|-295
+Midland, TX|2049
+Milwaukee-Waukesha-West Allis, WI|-3066
+Minneapolis-St. Paul-Bloomington, MN-WI|8368
+Missoula, MT|264
+Mobile, AL|-2217
+Modesto, CA|-1156
+Monroe, LA|-5
+Monroe, MI|-821
+Montgomery, AL|1693
+Morgantown, WV|1586
+Morristown, TN|603
+Mount Vernon-Anacortes, WA|627
+Muncie, IN|-164
+Muskegon-Norton Shores, MI|-1381
+Myrtle Beach-North Myrtle Beach-Conway, SC|5088
+Napa, CA|897
+Naples-Marco Island, FL|4801
+Nashville-Davidson--Murfreesboro--Franklin, TN|12338
+New Haven-Milford, CT|-3192
+New Orleans-Metairie-Kenner, LA|11716
+New York-Northern New Jersey-Long Island, NY-NJ-PA|-15653
+Niles-Benton Harbor, MI|-154
+North Port-Bradenton-Sarasota, FL|7818
+Norwich-New London, CT|-974
+Ocala, FL|1881
+Ocean City, NJ|-329
+Odessa, TX|1411
+Ogden-Clearfield, UT|-811
+Oklahoma City, OK|10974
+Olympia, WA|2373
+Omaha-Council Bluffs, NE-IA|1856
+Orlando-Kissimmee-Sanford, FL|20161
+Oshkosh-Neenah, WI|71
+Owensboro, KY|68
+Oxnard-Thousand Oaks-Ventura, CA|368
+Palm Bay-Melbourne-Titusville, FL|692
+Palm Coast, FL|1450
+Panama City-Lynn Haven-Panama City Beach, FL|-33
+Parkersburg-Marietta-Vienna, WV-OH|318
+Pascagoula, MS|-163
+Pensacola-Ferry Pass-Brent, FL|1743
+Peoria, IL|-654
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD|-1720
+Phoenix-Mesa-Glendale, AZ|21451
+Pine Bluff, AR|-1344
+Pittsburgh, PA|5166
+Pittsfield, MA|-413
+Pocatello, ID|-314
+Portland-South Portland-Biddeford, ME|1570
+Portland-Vancouver-Hillsboro, OR-WA|16194
+Port St. Lucie, FL|2896
+Poughkeepsie-Newburgh-Middletown, NY|-1607
+Prescott, AZ|1199
+Providence-New Bedford-Fall River, RI-MA|-3767
+Provo-Orem, UT|610
+Pueblo, CO|677
+Punta Gorda, FL|1632
+Racine, WI|-1117
+Raleigh-Cary, NC|16490
+Rapid City, SD|567
+Reading, PA|-1149
+Redding, CA|312
+Reno-Sparks, NV|955
+Richmond, VA|3511
+Riverside-San Bernardino-Ontario, CA|24196
+Roanoke, VA|46
+Rochester, MN|-133
+Rochester, NY|-2085
+Rockford, IL|-2531
+Rocky Mount, NC|-653
+Rome, GA|-576
+Sacramento--Arden-Arcade--Roseville, CA|9029
+Saginaw-Saginaw Township North, MI|-1263
+St. Cloud, MN|-557
+St. George, UT|1719
+St. Joseph, MO-KS|-137
+St. Louis, MO-IL|-7589
+Salem, OR|849
+Salinas, CA|1014
+Salisbury, MD|-117
+Salt Lake City, UT|4005
+San Angelo, TX|557
+San Antonio-New Braunfels, TX|23356
+San Diego-Carlsbad-San Marcos, CA|10407
+Sandusky, OH|-187
+San Francisco-Oakland-Fremont, CA|23876
+San Jose-Sunnyvale-Santa Clara, CA|8368
+San Luis Obispo-Paso Robles, CA|1310
+Santa Barbara-Santa Maria-Goleta, CA|-754
+Santa Cruz-Watsonville, CA|-77
+Santa Fe, NM|672
+Santa Rosa-Petaluma, CA|1756
+Savannah, GA|4686
+Scranton--Wilkes-Barre, PA|810
+Seattle-Tacoma-Bellevue, WA|29826
+Sebastian-Vero Beach, FL|1100
+Sheboygan, WI|-620
+Sherman-Denison, TX|13
+Shreveport-Bossier City, LA|1664
+Sioux City, IA-NE-SD|-794
+Sioux Falls, SD|1180
+South Bend-Mishawaka, IN-MI|-1551
+Spartanburg, SC|905
+Spokane, WA|-206
+Springfield, IL|572
+Springfield, MA|-1157
+Springfield, MO|951
+Springfield, OH|-589
+State College, PA|-153
+Steubenville-Weirton, OH-WV|-440
+Stockton, CA|2558
+Sumter, SC|-707
+Syracuse, NY|-2312
+Tallahassee, FL|64
+Tampa-St. Petersburg-Clearwater, FL|34014
+Terre Haute, IN|126
+Texarkana, TX-Texarkana, AR|-71
+Toledo, OH|-2966
+Topeka, KS|-417
+Trenton-Ewing, NJ|-1528
+Tucson, AZ|3575
+Tulsa, OK|1523
+Tuscaloosa, AL|955
+Tyler, TX|1630
+Utica-Rome, NY|-1031
+Valdosta, GA|1171
+Vallejo-Fairfield, CA|90
+Victoria, TX|93
+Vineland-Millville-Bridgeton, NJ|-703
+Virginia Beach-Norfolk-Newport News, VA-NC|-4704
+Visalia-Porterville, CA|286
+Waco, TX|1174
+Warner Robins, GA|2122
+Washington-Arlington-Alexandria, DC-VA-MD-WV|46389
+Waterloo-Cedar Falls, IA|-175
+Wausau, WI|-284
+Wenatchee-East Wenatchee, WA|486
+Wheeling, WV-OH|-355
+Wichita, KS|-3015
+Wichita Falls, TX|-1812
+Williamsport, PA|646
+Wilmington, NC|5155
+Winchester, VA-WV|794
+Winston-Salem, NC|1650
+Worcester, MA|-625
+Yakima, WA|139
+York-Hanover, PA|-421
+Youngstown-Warren-Boardman, OH-PA|-1200
+Yuba City, CA|-1161
+Yuma, AZ|2172

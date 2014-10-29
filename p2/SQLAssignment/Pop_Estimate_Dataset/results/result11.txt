@@ -1,0 +1,51 @@
+Ohio|Van Wert County|14
+Wisconsin|Washburn County|8
+Michigan|Mackinac County|14
+Indiana|Ohio County|2
+Illinois|Scott County|2
+Alabama|Choctaw County|4
+Kentucky|Ballard County|6
+Tennessee|Van Buren County|3
+Mississippi|Issaquena County|2
+New Jersey|Cumberland County|44
+New York|Schuyler County|23
+Pennsylvania|Potter County|4
+Arizona|Greenlee County|187
+Wyoming|Hot Springs County|14
+New Mexico|Union County|3
+Idaho|Lewis County|3
+Colorado|Cheyenne County|3
+Utah|Piute County|7
+Nevada|Esmeralda County|12
+Montana|Petroleum County|1
+Rhode Island|Providence County|829
+Connecticut|New London County|1
+New Hampshire|Belknap County|138
+Maine|Sagadahoc County|7
+Vermont|Lamoille County|34
+Massachusetts|Nantucket County|52
+Hawaii|Kauai County|653
+Washington|Ferry County|12
+Oregon|Wheeler County|5
+California|Alpine County|4
+Alaska|Yakutat City and Borough|2
+District of Columbia|District of Columbia|13303
+Delaware|Kent County|2307
+Maryland|Talbot County|68
+South Carolina|Saluda County|17
+Florida|Liberty County|37
+North Carolina|Hyde County|11
+West Virginia|Wirt County|9
+Virginia|Norton city|4
+Georgia|Glascock County|5
+Iowa|Ida County|9
+Minnesota|Mahnomen County|1
+Missouri|Scotland County|5
+South Dakota|Harding County|1
+Kansas|Greeley County|1
+North Dakota|Slope County|8
+Nebraska|Arthur County|2
+Louisiana|St. Helena Parish|13
+Arkansas|Calhoun County|12
+Oklahoma|Ellis County|5
+Texas|King County|1
