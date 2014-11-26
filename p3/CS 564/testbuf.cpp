@@ -7,8 +7,6 @@
 #include "page.h"
 #include "buf.h"
 
-#define DEBUG
-
 
 #define CALL(c)    { Status s; \
                      if ((s = c) != OK) { \
@@ -127,12 +125,10 @@ int main()
       pageno = j[random() % num];
       CALL(bufMgr->readPage(file1, pageno, page));
       sprintf((char*)&cmp, "test.1 Page %d %7.1f", pageno, (float)pageno);
-#ifdef DEBUG
-      cout << "page(" << pageno << ")" << "content:"<<endl;
-      cout << "[ "<< (char*)page << " ]" <<endl;
-      cout << "cmp content:"<<endl;
-      cout << "[ "<< (char*)&cmp << " ]"<<endl;
-#endif
+
+      cout <<"[" << (char*) page << "]" << endl;
+      cout << "[" <<(char*) &cmp << "]" <<endl;
+
       ASSERT(memcmp(page, &cmp, strlen((char*)&cmp)) == 0);
       cout << (char*)page << endl;
       CALL(bufMgr->readPage(file2, pageno2, page2));

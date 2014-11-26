@@ -26,23 +26,23 @@ private:
 public:
     BufHashTbl(const int htSize);  // constructor
     ~BufHashTbl(); // destructor
-
+	
     // insert entry into hash table mapping (file,pageNo) to frameNo;
     // returns 0 if OK, HASHTBLERROR if an error occurred
   Status insert(const File* file, const int pageNo, const int frameNo);
 
     // Check if (file,pageNo) is currently in the buffer pool (ie. in
-    // the hash table).  If so, return corresponding frameNo. else return
+    // the hash table).  If so, return corresponding frameNo. else return 
     // HASHNOTFOUND
   Status lookup(const File* file, const int pageNo, int & frameNo);
 
     // delete entry (file,pageNo) from hash table. REturn OK if page was
     // found.  Else return HASHTBLERROR
-  Status remove(const File* file, const int pageNo);
+  Status remove(const File* file, const int pageNo);  
 };
 
 
-class BufMgr;  //forward declaration of BufMgr class
+class BufMgr;  //forward declaration of BufMgr class 
 
 // class for maintaining information about buffer pool frames
 class BufDesc {
@@ -57,14 +57,14 @@ private:
   bool  refbit;	 // has this buffer frame been reference recently
 
   void Clear() {  // initialize buffer frame for a new user
-    pinCnt = 0;
+    	pinCnt = 0;
 	file = NULL;
 	pageNo = -1;
-    dirty = false;
+    	dirty = false;
 	valid = false;
   };
 
-  void Set(File* filePtr, int pageNum) {
+  void Set(File* filePtr, int pageNum) { 
       file = filePtr;
       pageNo = pageNum;
       pinCnt = 1;
@@ -89,7 +89,7 @@ struct BufStats
     {
       accesses = diskreads = diskwrites = 0;
     }
-
+      
   BufStats()
     {
       clear();
@@ -97,7 +97,7 @@ struct BufStats
 };
 
 
-class BufMgr
+class BufMgr 
 {
 private:
   unsigned int 	 clockHand;
@@ -106,7 +106,7 @@ private:
   BufDesc*	 bufTable;  	// vector of status info, 1 per page
   BufStats	 bufStats;	// buffer pool statistics
 
-  const Status allocBuf(int & frame);   // allocate a free frame.
+  const Status allocBuf(int & frame);   // allocate a free frame.  
   const void releaseBuf(int frame); // return unused frame to end of list
   void advanceClock()
   {
@@ -122,8 +122,8 @@ public:
 
   const Status readPage(File* file, const int PageNo, Page*& page);
   const Status unPinPage(File* file, const int PageNo, const bool dirty);
-  const Status allocPage(File* file, int& PageNo, Page*& page);
-                        // allocates a new, empty page
+  const Status allocPage(File* file, int& PageNo, Page*& page); 
+                        // allocates a new, empty page 
   const Status flushFile(const File* file); // writing out all dirty pages of the file
   const Status disposePage(File* file, const int PageNo); // dispose of page in file
   void  printSelf();
@@ -132,7 +132,7 @@ public:
   {
 	return bufStats;
   }
-  const void clearBufStats()
+  const void clearBufStats() 
   {
 	bufStats.clear();
   }
