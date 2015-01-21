@@ -1,0 +1,13 @@
+parser -> Grammar to parse the queries written
+
+
+**** TESTING FILES AND FOLDERS ****
+uttest -> Script to test utilities, minirel, dbdestroy, dbcreate
+uttestqueries -> Queries to test utilities
+uttestdata -> Data to be loaded into tables
+
+
+**** EXTRA CREDIT TESTING FILES AND FOLDERS ****
+qutest -> Script to test select, delete, join and insert
+testqueries -> Queies to test select, delete, join and insert
+data -> Data to be loaded into relations to be used by queries in testqueries

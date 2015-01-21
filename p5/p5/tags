@@ -1,0 +1,699 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALIAS	parser/parse.h	/^	} ALIAS;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon29
+ASSERT	buf.cpp	11;"	d	file:
+ASSERT	error.h	70;"	d
+ATTRCATNAME	catalog.h	12;"	d
+ATTRNOTFOUND	error.h	/^       BADCATPARM, RELNOTFOUND, ATTRNOTFOUND,$/;"	e	enum:Status
+ATTRNULL	error.h	/^       ATTRTYPEMISMATCH, TMP_RES_EXISTS, ATTRNULL,$/;"	e	enum:Status
+ATTRTOOLONG	error.h	/^       INDEXEXISTS, ATTRTOOLONG, RELTOOLARGE,$/;"	e	enum:Status
+ATTRTYPE	parser/parse.h	/^	} ATTRTYPE;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon25
+ATTRTYPEMISMATCH	error.h	/^       ATTRTYPEMISMATCH, TMP_RES_EXISTS, ATTRNULL,$/;"	e	enum:Status
+ATTRVAL	parser/parse.h	/^	} ATTRVAL;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon24
+ATTR_DESCR	parser/parse.h	/^} ATTR_DESCR;$/;"	t	typeref:struct:__anon5
+ATTR_VAL	parser/parse.h	/^} ATTR_VAL;$/;"	t	typeref:struct:__anon7
+AttrCatalog	catalog.cpp	/^AttrCatalog::AttrCatalog(Status &status) :$/;"	f	class:AttrCatalog
+AttrCatalog	catalog.h	/^class AttrCatalog : public HeapFile {$/;"	c
+AttrDesc	catalog.h	/^} AttrDesc;$/;"	t	typeref:struct:__anon3
+BADBUFFER	error.h	/^       BADBUFFER, PAGEPINNED,$/;"	e	enum:Status
+BADCATPARM	error.h	/^       BADCATPARM, RELNOTFOUND, ATTRNOTFOUND,$/;"	e	enum:Status
+BADFILE	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+BADFILEPTR	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+BADINDEXPARM	error.h	/^       BADINDEXPARM, RECNOTFOUND, BUCKETFULL, DIROVERFLOW, $/;"	e	enum:Status
+BADPAGENO	error.h	/^       UNIXERR, BADPAGEPTR, BADPAGENO, FILEEXISTS,$/;"	e	enum:Status
+BADPAGEPTR	error.h	/^       UNIXERR, BADPAGEPTR, BADPAGENO, FILEEXISTS,$/;"	e	enum:Status
+BADRECPTR	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+BADRID	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+BADSCANID	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+BADSCANPARM	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+BADSORTPARM	error.h	/^       BADSORTPARM, INSUFMEM, $/;"	e	enum:Status
+BUCKETFULL	error.h	/^       BADINDEXPARM, RECNOTFOUND, BUCKETFULL, DIROVERFLOW, $/;"	e	enum:Status
+BUFFEREXCEEDED	error.h	/^       HASHTBLERROR, HASHNOTFOUND, BUFFEREXCEEDED, PAGENOTPINNED,$/;"	e	enum:Status
+BUF_H	buf.h	2;"	d
+BUILD	parser/parse.h	/^	} BUILD;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon15
+BufDesc	buf.h	/^  BufDesc() {$/;"	f	class:BufDesc
+BufDesc	buf.h	/^class BufDesc {$/;"	c
+BufHashTbl	buf.h	/^class BufHashTbl$/;"	c
+BufHashTbl	bufHash.cpp	/^BufHashTbl::BufHashTbl(int htSize)$/;"	f	class:BufHashTbl
+BufMgr	buf.cpp	/^BufMgr::BufMgr(const int bufs)$/;"	f	class:BufMgr
+BufMgr	buf.h	/^class BufMgr $/;"	c
+BufStats	buf.h	/^  BufStats()$/;"	f	struct:BufStats
+BufStats	buf.h	/^struct BufStats$/;"	s
+CALL	dbcreate.cpp	14;"	d	file:
+CATALOG_H	catalog.h	2;"	d
+CC	parser/makefile	/^CC =		g++$/;"	m
+CHAR_TYPE	parser/y.tab.h	/^     CHAR_TYPE = 284,$/;"	e	enum:yytokentype
+CHAR_TYPE	parser/y.tab.h	111;"	d
+CREATE	parser/parse.h	/^	} CREATE;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon13
+CXX	Makefile	/^CXX =	         g++$/;"	m
+CXX	parser/makefile	/^CXX =		g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS =	-g -DDEBUG #-DDEBUGIND -DDEBUGBUF$/;"	m
+CXXFLAGS	parser/makefile	/^CXXFLAGS =	$(INC) -g -Wall $(DEBUG)$/;"	m
+Clear	buf.h	/^  void Clear() {  \/\/ initialize buffer frame for a new user$/;"	f	class:BufDesc
+DB	db.cpp	/^DB::DB()$/;"	f	class:DB
+DB	db.h	/^class DB {$/;"	c
+DBOBJS	Makefile	/^DBOBJS =	catalog.o buf.o bufHash.o db.o heapfile.o error.o page.o$/;"	m
+DBP	db.cpp	14;"	d	file:
+DBPage	db.h	/^} DBPage;$/;"	t	typeref:struct:__anon4
+DB_H	db.h	2;"	d
+DELETE	parser/parse.h	/^	} DELETE;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon12
+DESTROY	parser/parse.h	/^	} DESTROY;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon14
+DIROVERFLOW	error.h	/^       BADINDEXPARM, RECNOTFOUND, BUCKETFULL, DIROVERFLOW, $/;"	e	enum:Status
+DPFIXED	page.h	/^const unsigned DPFIXED= sizeof(slot_t)+4*sizeof(short)+2*sizeof(int);$/;"	v
+DROP	parser/parse.h	/^	} DROP;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon16
+DUPLATTR	error.h	/^       NAMETOOLONG, DUPLATTR, RELEXISTS, NOINDEX,$/;"	e	enum:Status
+Datatype	heapfile.h	/^enum Datatype { STRING, INTEGER, FLOAT };    \/\/ attribute data types$/;"	g
+ENDOFPAGE	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+EQ	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+ERRFP	parser/interp.cpp	23;"	d	file:
+ERROR_H	error.h	3;"	d
+E_DUPLICATEATTR	parser/interp.cpp	18;"	d	file:
+E_INCOMPATIBLE	parser/interp.cpp	11;"	d	file:
+E_INVFLOATSIZE	parser/interp.cpp	15;"	d	file:
+E_INVFORMATSTRING	parser/interp.cpp	16;"	d	file:
+E_INVINTSIZE	parser/interp.cpp	14;"	d	file:
+E_INVSTRLEN	parser/interp.cpp	17;"	d	file:
+E_NOLENGTH	parser/interp.cpp	13;"	d	file:
+E_OK	parser/interp.cpp	10;"	d	file:
+E_STRINGTOOLONG	parser/interp.cpp	20;"	d	file:
+E_TOOLONG	parser/interp.cpp	19;"	d	file:
+E_TOOMANYATTRS	parser/interp.cpp	12;"	d	file:
+Error	error.h	/^class Error {$/;"	c
+FILEEOF	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+FILEEXISTS	error.h	/^       UNIXERR, BADPAGEPTR, BADPAGENO, FILEEXISTS,$/;"	e	enum:Status
+FILEHDRFULL	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+FILENOTOPEN	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+FILEOPEN	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+FILETABFULL	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+FLOAT	heapfile.h	/^enum Datatype { STRING, INTEGER, FLOAT };    \/\/ attribute data types$/;"	e	enum:Datatype
+FLOATCHAR	parser/parse.h	39;"	d
+File	db.cpp	/^File::File(const string & fname)$/;"	f	class:File
+File	db.h	/^class File {$/;"	c
+FileHdrPage	heapfile.h	/^struct FileHdrPage$/;"	s
+GT	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+GTE	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+HASHNOTFOUND	error.h	/^       HASHTBLERROR, HASHNOTFOUND, BUFFEREXCEEDED, PAGENOTPINNED,$/;"	e	enum:Status
+HASHTBLERROR	error.h	/^       HASHTBLERROR, HASHNOTFOUND, BUFFEREXCEEDED, PAGENOTPINNED,$/;"	e	enum:Status
+HEAPFILE_H	heapfile.h	2;"	d
+HELP	parser/parse.h	/^	} HELP;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon19
+HTSIZE	buf.h	/^    int HTSIZE;$/;"	m	class:BufHashTbl
+HTSIZE	db.h	/^    int HTSIZE;$/;"	m	class:OpenFileHashTbl
+HTSIZE	joinHT.h	/^    int 	HTSIZE;$/;"	m	class:joinHashTbl
+HTentry	joinHT.h	/^    struct HTentry$/;"	s	class:joinHashTbl
+HashJoin	query.h	/^enum JoinType {NLJoin, SMJoin, HashJoin};$/;"	e	enum:JoinType
+HeapFile	heapfile.cpp	/^HeapFile::HeapFile(const string & fileName, Status& returnStatus)$/;"	f	class:HeapFile
+HeapFile	heapfile.h	/^class HeapFile {$/;"	c
+HeapFileScan	heapfile.cpp	/^HeapFileScan::HeapFileScan(const string & name,$/;"	f	class:HeapFileScan
+HeapFileScan	heapfile.h	/^class HeapFileScan : public HeapFile$/;"	c
+INC	parser/makefile	/^INC =		-I..$/;"	m
+INDEXEXISTS	error.h	/^       INDEXEXISTS, ATTRTOOLONG, RELTOOLARGE,$/;"	e	enum:Status
+INSERT	parser/parse.h	/^	} INSERT;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon11
+INSUFMEM	error.h	/^       BADSORTPARM, INSUFMEM, $/;"	e	enum:Status
+INTCHAR	parser/parse.h	38;"	d
+INTEGER	heapfile.h	/^enum Datatype { STRING, INTEGER, FLOAT };    \/\/ attribute data types$/;"	e	enum:Datatype
+INT_TYPE	parser/y.tab.h	/^     INT_TYPE = 282,$/;"	e	enum:yytokentype
+INT_TYPE	parser/y.tab.h	109;"	d
+INVALIDRECLEN	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+INVALIDSLOTNO	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+InsertFileScan	heapfile.cpp	/^InsertFileScan::InsertFileScan(const string & name,$/;"	f	class:InsertFileScan
+InsertFileScan	heapfile.h	/^class InsertFileScan : public HeapFile$/;"	c
+JAttrType	joinHT.h	/^    union JAttrType$/;"	u	class:joinHashTbl
+JOIN	parser/parse.h	/^	} JOIN;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon21
+JoinMethod	minirel.cpp	/^JoinType JoinMethod;$/;"	v
+JoinType	query.h	/^enum JoinType {NLJoin, SMJoin, HashJoin};$/;"	g
+LD	Makefile	/^LD =		ld$/;"	m
+LD	parser/makefile	/^LD =		ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS =	$/;"	m
+LDFLAGS	parser/makefile	/^LDFLAGS =	$/;"	m
+LEX	parser/makefile	/^LEX =		flex$/;"	m
+LFLAGS	parser/makefile	/^LFLAGS =        -I -t$/;"	m
+LIBS	Makefile	/^LIBS =		parser.o$/;"	m
+LIBS	parser/makefile	/^LIBS =		$/;"	m
+LIST	parser/parse.h	/^	} LIST;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon28
+LOAD	parser/parse.h	/^	} LOAD;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon17
+LT	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+LTE	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+MAKEFILE	Makefile	/^MAKEFILE =	Makefile$/;"	m
+MAX	print.cpp	6;"	d	file:
+MAXATTRS	parser/interp.cpp	24;"	d	file:
+MAXCHAR	parser/scanhelp.cpp	3;"	d	file:
+MAXNAME	catalog.h	13;"	d
+MAXNAMESIZE	heapfile.h	/^const unsigned MAXNAMESIZE = 50;$/;"	v
+MAXNODE	parser/nodes.cpp	12;"	d	file:
+MAXSTRINGLEN	catalog.h	14;"	d
+MAXSTRINGLEN	parser/scanhelp.cpp	64;"	d	file:
+MIN	print.cpp	7;"	d	file:
+MIN	sort.cpp	12;"	d	file:
+NAMETOOLONG	error.h	/^       NAMETOOLONG, DUPLATTR, RELEXISTS, NOINDEX,$/;"	e	enum:Status
+NE	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+NLJoin	query.h	/^enum JoinType {NLJoin, SMJoin, HashJoin};$/;"	e	enum:JoinType
+NODE	parser/parse.h	/^} NODE;$/;"	t	typeref:struct:node
+NODEKIND	parser/parse.h	/^} NODEKIND;$/;"	t	typeref:enum:__anon8
+NOINDEX	error.h	/^       NAMETOOLONG, DUPLATTR, RELEXISTS, NOINDEX,$/;"	e	enum:Status
+NOMORERECS	error.h	/^       NONUNIQUEENTRY, NOMORERECS,$/;"	e	enum:Status
+NONCATOBJS	Makefile	/^NONCATOBJS =	buf.o db.o heapfile.o error.o page.o sort.o $/;"	m
+NONUNIQUEENTRY	error.h	/^       NONUNIQUEENTRY, NOMORERECS,$/;"	e	enum:Status
+NORECORDS	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+NOSPACE	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+NOTOKEN	parser/y.tab.h	/^     NOTOKEN = 292,$/;"	e	enum:yytokentype
+NOTOKEN	parser/y.tab.h	119;"	d
+NOTUSED1	error.h	/^       OK = 0, NOTUSED1 = -999,$/;"	e	enum:Status
+NOTUSED2	error.h	/^       NOTUSED2$/;"	e	enum:Status
+NULLRID	page.h	/^const RID NULLRID = {-1,-1};$/;"	v
+N_ALIAS	parser/parse.h	/^    N_ALIAS$/;"	e	enum:__anon8
+N_ATTRTYPE	parser/parse.h	/^    N_ATTRTYPE,$/;"	e	enum:__anon8
+N_ATTRVAL	parser/parse.h	/^    N_ATTRVAL,$/;"	e	enum:__anon8
+N_BUILD	parser/parse.h	/^    N_BUILD,$/;"	e	enum:__anon8
+N_CREATE	parser/parse.h	/^    N_CREATE,$/;"	e	enum:__anon8
+N_DELETE	parser/parse.h	/^    N_DELETE,$/;"	e	enum:__anon8
+N_DESTROY	parser/parse.h	/^    N_DESTROY,$/;"	e	enum:__anon8
+N_DROP	parser/parse.h	/^    N_DROP,$/;"	e	enum:__anon8
+N_HELP	parser/parse.h	/^    N_HELP,$/;"	e	enum:__anon8
+N_INSERT	parser/parse.h	/^    N_INSERT,$/;"	e	enum:__anon8
+N_JOIN	parser/parse.h	/^    N_JOIN,$/;"	e	enum:__anon8
+N_LIST	parser/parse.h	/^    N_LIST,$/;"	e	enum:__anon8
+N_LOAD	parser/parse.h	/^    N_LOAD,$/;"	e	enum:__anon8
+N_PRIMATTR	parser/parse.h	/^    N_PRIMATTR,$/;"	e	enum:__anon8
+N_PRINT	parser/parse.h	/^    N_PRINT,$/;"	e	enum:__anon8
+N_QUALATTR	parser/parse.h	/^    N_QUALATTR,$/;"	e	enum:__anon8
+N_QUERY	parser/parse.h	/^    N_QUERY,$/;"	e	enum:__anon8
+N_REBUILD	parser/parse.h	/^    N_REBUILD,$/;"	e	enum:__anon8
+N_SELECT	parser/parse.h	/^    N_SELECT,$/;"	e	enum:__anon8
+N_VALUE	parser/parse.h	/^    N_VALUE,$/;"	e	enum:__anon8
+OBJS	Makefile	/^OBJS =		buf.o bufHash.o db.o heapfile.o error.o page.o \\$/;"	m
+OBJS	parser/makefile	/^OBJS =		scan.o parse.o nodes.o interp.o yywrap.o$/;"	m
+OK	error.h	/^       OK = 0, NOTUSED1 = -999,$/;"	e	enum:Status
+OpenFileHashTbl	db.cpp	/^OpenFileHashTbl::OpenFileHashTbl()$/;"	f	class:OpenFileHashTbl
+OpenFileHashTbl	db.h	/^class OpenFileHashTbl$/;"	c
+Operator	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	g
+P	partition.h	/^  int P;                                \/\/ number of partitions$/;"	m	class:Partition
+PAGEDATASIZE	page.h	/^const unsigned PAGEDATASIZE = PAGESIZE-DPFIXED+sizeof(slot_t);$/;"	v
+PAGENOTPINNED	error.h	/^       HASHTBLERROR, HASHNOTFOUND, BUFFEREXCEEDED, PAGENOTPINNED,$/;"	e	enum:Status
+PAGEPINNED	error.h	/^       BADBUFFER, PAGEPINNED,$/;"	e	enum:Status
+PAGESIZE	page.h	/^const unsigned PAGESIZE = 1024;$/;"	v
+PAGE_H	page.h	2;"	d
+PARSE_H	parser/parse.h	2;"	d
+PARTITION_H	partition.h	2;"	d
+PRIMATTR	parser/parse.h	/^	} PRIMATTR;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon23
+PRINT	parser/parse.h	/^	} PRINT;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon18
+PROMPT	parser/parse.h	41;"	d
+PURIFY	Makefile	/^PURIFY =        purify -collector=\/usr\/ccs\/bin\/ld -g++$/;"	m
+Page	page.h	/^class Page {$/;"	c
+Partition	partition.cpp	/^Partition::Partition(HeapFileScan *rel, $/;"	f	class:Partition
+Partition	partition.h	/^class Partition {$/;"	c
+QUALATTR	parser/parse.h	/^	} QUALATTR;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon22
+QUERY	parser/parse.h	/^	} QUERY;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon10
+QUERY_H	query.h	2;"	d
+QU_Delete	delete.cpp	/^const Status QU_Delete(const string & relation, $/;"	f
+QU_Hash_Join	join.cpp	/^const Status QU_Hash_Join(const string & result, $/;"	f
+QU_Insert	insert.cpp	/^const Status QU_Insert(const string & relation, $/;"	f
+QU_Join	join.cpp	/^const Status QU_Join(const string & result, $/;"	f
+QU_NL_Join	join.cpp	/^const Status QU_NL_Join(const string & result, $/;"	f
+QU_SM_Join	join.cpp	/^const Status QU_SM_Join(const string & result, $/;"	f
+QU_Select	select.cpp	/^const Status QU_Select(const string & result, $/;"	f
+REAL_TYPE	parser/y.tab.h	/^     REAL_TYPE = 283,$/;"	e	enum:yytokentype
+REAL_TYPE	parser/y.tab.h	110;"	d
+RECNOTFOUND	error.h	/^       BADINDEXPARM, RECNOTFOUND, BUCKETFULL, DIROVERFLOW, $/;"	e	enum:Status
+RELCATNAME	catalog.h	11;"	d
+RELEXISTS	error.h	/^       NAMETOOLONG, DUPLATTR, RELEXISTS, NOINDEX,$/;"	e	enum:Status
+RELNOTFOUND	error.h	/^       BADCATPARM, RELNOTFOUND, ATTRNOTFOUND,$/;"	e	enum:Status
+RELTOOLARGE	error.h	/^       INDEXEXISTS, ATTRTOOLONG, RELTOOLARGE,$/;"	e	enum:Status
+REL_ATTR	parser/parse.h	/^} REL_ATTR;$/;"	t	typeref:struct:__anon6
+RID	page.h	/^struct RID{$/;"	s
+RID	rid.h	/^typedef struct RID{$/;"	s
+RID_H	rid.h	2;"	d
+RUN	sort.h	/^  } RUN;$/;"	t	class:SortedFile	typeref:struct:SortedFile::__anon31
+RW_ALL	parser/y.tab.h	/^     RW_ALL = 274,$/;"	e	enum:yytokentype
+RW_ALL	parser/y.tab.h	101;"	d
+RW_AND	parser/y.tab.h	/^     RW_AND = 278,$/;"	e	enum:yytokentype
+RW_AND	parser/y.tab.h	105;"	d
+RW_AS	parser/y.tab.h	/^     RW_AS = 276,$/;"	e	enum:yytokentype
+RW_AS	parser/y.tab.h	103;"	d
+RW_BUILD	parser/y.tab.h	/^     RW_BUILD = 259,$/;"	e	enum:yytokentype
+RW_BUILD	parser/y.tab.h	86;"	d
+RW_CREATE	parser/y.tab.h	/^     RW_CREATE = 258,$/;"	e	enum:yytokentype
+RW_CREATE	parser/y.tab.h	85;"	d
+RW_DELETE	parser/y.tab.h	/^     RW_DELETE = 271,$/;"	e	enum:yytokentype
+RW_DELETE	parser/y.tab.h	98;"	d
+RW_DESTROY	parser/y.tab.h	/^     RW_DESTROY = 262,$/;"	e	enum:yytokentype
+RW_DESTROY	parser/y.tab.h	89;"	d
+RW_DROP	parser/y.tab.h	/^     RW_DROP = 261,$/;"	e	enum:yytokentype
+RW_DROP	parser/y.tab.h	88;"	d
+RW_FROM	parser/y.tab.h	/^     RW_FROM = 275,$/;"	e	enum:yytokentype
+RW_FROM	parser/y.tab.h	102;"	d
+RW_HELP	parser/y.tab.h	/^     RW_HELP = 265,$/;"	e	enum:yytokentype
+RW_HELP	parser/y.tab.h	92;"	d
+RW_INSERT	parser/y.tab.h	/^     RW_INSERT = 270,$/;"	e	enum:yytokentype
+RW_INSERT	parser/y.tab.h	97;"	d
+RW_INTO	parser/y.tab.h	/^     RW_INTO = 268,$/;"	e	enum:yytokentype
+RW_INTO	parser/y.tab.h	95;"	d
+RW_LOAD	parser/y.tab.h	/^     RW_LOAD = 264,$/;"	e	enum:yytokentype
+RW_LOAD	parser/y.tab.h	91;"	d
+RW_NOT	parser/y.tab.h	/^     RW_NOT = 280,$/;"	e	enum:yytokentype
+RW_NOT	parser/y.tab.h	107;"	d
+RW_NUMBUCKETS	parser/y.tab.h	/^     RW_NUMBUCKETS = 273,$/;"	e	enum:yytokentype
+RW_NUMBUCKETS	parser/y.tab.h	100;"	d
+RW_OR	parser/y.tab.h	/^     RW_OR = 279,$/;"	e	enum:yytokentype
+RW_OR	parser/y.tab.h	106;"	d
+RW_PRIMARY	parser/y.tab.h	/^     RW_PRIMARY = 272,$/;"	e	enum:yytokentype
+RW_PRIMARY	parser/y.tab.h	99;"	d
+RW_PRINT	parser/y.tab.h	/^     RW_PRINT = 263,$/;"	e	enum:yytokentype
+RW_PRINT	parser/y.tab.h	90;"	d
+RW_QUIT	parser/y.tab.h	/^     RW_QUIT = 266,$/;"	e	enum:yytokentype
+RW_QUIT	parser/y.tab.h	93;"	d
+RW_REBUILD	parser/y.tab.h	/^     RW_REBUILD = 260,$/;"	e	enum:yytokentype
+RW_REBUILD	parser/y.tab.h	87;"	d
+RW_SELECT	parser/y.tab.h	/^     RW_SELECT = 267,$/;"	e	enum:yytokentype
+RW_SELECT	parser/y.tab.h	94;"	d
+RW_TABLE	parser/y.tab.h	/^     RW_TABLE = 277,$/;"	e	enum:yytokentype
+RW_TABLE	parser/y.tab.h	104;"	d
+RW_VALUES	parser/y.tab.h	/^     RW_VALUES = 281,$/;"	e	enum:yytokentype
+RW_VALUES	parser/y.tab.h	108;"	d
+RW_WHERE	parser/y.tab.h	/^     RW_WHERE = 269,$/;"	e	enum:yytokentype
+RW_WHERE	parser/y.tab.h	96;"	d
+Record	page.h	/^struct Record$/;"	s
+RelCatalog	catalog.cpp	/^RelCatalog::RelCatalog(Status &status) :$/;"	f	class:RelCatalog
+RelCatalog	catalog.h	/^class RelCatalog : public HeapFile {$/;"	c
+RelDesc	catalog.h	/^} RelDesc;$/;"	t	typeref:struct:__anon1
+SCANTABFULL	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+SELECT	parser/parse.h	/^	} SELECT;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon20
+SMJoin	query.h	/^enum JoinType {NLJoin, SMJoin, HashJoin};$/;"	e	enum:JoinType
+SORTREC	sort.h	/^} SORTREC;$/;"	t	typeref:struct:__anon30
+SORT_H	sort.h	2;"	d
+SR	sort.cpp	60;"	d	file:
+SRCS	Makefile	/^SRCS =		buf.cpp  bufHash.cpp db.cpp heapfile.cpp error.cpp page.cpp \\$/;"	m
+SRCS	parser/makefile	/^SRCS =		scan.l parse.y nodes.cpp interp.cpp yywrap.c$/;"	m
+STRCHAR	parser/parse.h	40;"	d
+STRING	heapfile.h	/^enum Datatype { STRING, INTEGER, FLOAT };    \/\/ attribute data types$/;"	e	enum:Datatype
+ScanSelect	select.cpp	/^const Status ScanSelect(const string & result, $/;"	f
+Set	buf.h	/^  void Set(File* filePtr, int pageNum) { $/;"	f	class:BufDesc
+SortedFile	sort.cpp	/^SortedFile::SortedFile(const string & fileName, $/;"	f	class:SortedFile
+SortedFile	sort.h	/^class SortedFile {$/;"	c
+Status	error.h	/^enum Status {$/;"	g
+TMP_RES_EXISTS	error.h	/^       ATTRTYPEMISMATCH, TMP_RES_EXISTS, ATTRNULL,$/;"	e	enum:Status
+T_EOF	parser/y.tab.h	/^     T_EOF = 291,$/;"	e	enum:yytokentype
+T_EOF	parser/y.tab.h	118;"	d
+T_EQ	parser/y.tab.h	/^     T_EQ = 285,$/;"	e	enum:yytokentype
+T_EQ	parser/y.tab.h	112;"	d
+T_GE	parser/y.tab.h	/^     T_GE = 289,$/;"	e	enum:yytokentype
+T_GE	parser/y.tab.h	116;"	d
+T_GT	parser/y.tab.h	/^     T_GT = 288,$/;"	e	enum:yytokentype
+T_GT	parser/y.tab.h	115;"	d
+T_INT	parser/y.tab.h	/^     T_INT = 293,$/;"	e	enum:yytokentype
+T_INT	parser/y.tab.h	120;"	d
+T_LE	parser/y.tab.h	/^     T_LE = 287,$/;"	e	enum:yytokentype
+T_LE	parser/y.tab.h	114;"	d
+T_LT	parser/y.tab.h	/^     T_LT = 286,$/;"	e	enum:yytokentype
+T_LT	parser/y.tab.h	113;"	d
+T_NE	parser/y.tab.h	/^     T_NE = 290,$/;"	e	enum:yytokentype
+T_NE	parser/y.tab.h	117;"	d
+T_QSTRING	parser/y.tab.h	/^     T_QSTRING = 296,$/;"	e	enum:yytokentype
+T_QSTRING	parser/y.tab.h	123;"	d
+T_REAL	parser/y.tab.h	/^     T_REAL = 294,$/;"	e	enum:yytokentype
+T_REAL	parser/y.tab.h	121;"	d
+T_SHELL_CMD	parser/y.tab.h	/^     T_SHELL_CMD = 297$/;"	e	enum:yytokentype
+T_SHELL_CMD	parser/y.tab.h	124;"	d
+T_STRING	parser/y.tab.h	/^     T_STRING = 295,$/;"	e	enum:yytokentype
+T_STRING	parser/y.tab.h	122;"	d
+UNIXERR	error.h	/^       UNIXERR, BADPAGEPTR, BADPAGENO, FILEEXISTS,$/;"	e	enum:Status
+UTILITY_H	utility.h	2;"	d
+UT_Load	load.cpp	/^const Status UT_Load(const string & relation, const string & fileName)$/;"	f
+UT_Print	print.cpp	/^const Status UT_Print(string relation)$/;"	f
+UT_Quit	quit.cpp	/^void UT_Quit(void)$/;"	f
+UT_computeWidth	print.cpp	/^const Status UT_computeWidth(const int attrCnt, $/;"	f
+UT_printRec	print.cpp	/^void UT_printRec(const int attrCnt, const AttrDesc attrs[], int *attrWidth,$/;"	f
+VALUE	parser/parse.h	/^	} VALUE;$/;"	m	union:node::__anon9	typeref:struct:node::__anon9::__anon26
+YACC	parser/makefile	/^YACC =		bison$/;"	m
+YFLAGS	parser/makefile	/^YFLAGS =        -y -d$/;"	m
+YYSTYPE	parser/y.tab.h	/^typedef union YYSTYPE$/;"	u
+YYSTYPE	parser/y.tab.h	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE_IS_DECLARED	parser/y.tab.h	148;"	d
+YYSTYPE_IS_TRIVIAL	parser/y.tab.h	146;"	d
+YYTOKENTYPE	parser/y.tab.h	38;"	d
+accesses	buf.h	/^  int accesses;    \/\/ Total number of accesses to buffer pool$/;"	m	struct:BufStats
+addInfo	catalog.cpp	/^const Status AttrCatalog::addInfo(AttrDesc & record)$/;"	f	class:AttrCatalog
+addInfo	catalog.cpp	/^const Status RelCatalog::addInfo(RelDesc & record)$/;"	f	class:RelCatalog
+advanceClock	buf.h	/^  void advanceClock()$/;"	f	class:BufMgr
+alias	parser/parse.h	/^	  char *alias;$/;"	m	struct:node::__anon9::__anon29
+alias_node	parser/nodes.cpp	/^NODE *alias_node(char *relname, char *alias)$/;"	f
+allocBuf	buf.cpp	/^const Status BufMgr::allocBuf(int & frame) $/;"	f	class:BufMgr
+allocPage	buf.cpp	/^const Status BufMgr::allocPage(File* file, int& pageNo, Page*& page) $/;"	f	class:BufMgr
+allocatePage	db.cpp	/^Status File::allocatePage(int& pageNo)$/;"	f	class:File
+attr1	parser/interp.cpp	/^static attrInfo attr1;$/;"	v	file:
+attr2	parser/interp.cpp	/^static attrInfo attr2;$/;"	v	file:
+attrCat	dbcreate.cpp	/^AttrCatalog *attrCat;$/;"	v
+attrCat	minirel.cpp	/^AttrCatalog *attrCat;$/;"	v
+attrCnt	catalog.h	/^  int attrCnt;                          \/\/ number of attributes$/;"	m	struct:__anon1
+attrInfo	catalog.h	/^} attrInfo; $/;"	t	typeref:struct:__anon2
+attrLen	catalog.h	/^  int  attrLen;                         \/\/ length of attribute in bytes$/;"	m	struct:__anon2
+attrLen	catalog.h	/^  int attrLen;                          \/\/ attribute length$/;"	m	struct:__anon3
+attrLen	parser/parse.h	/^  int attrLen;                          \/\/ length of attribute$/;"	m	struct:__anon5
+attrList	parser/interp.cpp	/^static attrInfo attrList[MAXATTRS];$/;"	v	file:
+attrName	catalog.h	/^  char attrName[MAXNAME];               \/\/ attribute name$/;"	m	struct:__anon2
+attrName	catalog.h	/^  char attrName[MAXNAME];               \/\/ attribute name$/;"	m	struct:__anon3
+attrName	parser/parse.h	/^  char *attrName;                       \/\/ attribute name$/;"	m	struct:__anon6
+attrName	parser/parse.h	/^  char *attrName;                       \/\/ attribute name$/;"	m	struct:__anon7
+attrName	parser/parse.h	/^  char *attrName;                       \/\/ relation name$/;"	m	struct:__anon5
+attrOffset	catalog.h	/^  int attrOffset;                       \/\/ attribute offset$/;"	m	struct:__anon3
+attrType	catalog.h	/^  int  attrType;                        \/\/ INTEGER, FLOAT, or STRING$/;"	m	struct:__anon2
+attrType	catalog.h	/^  int attrType;                         \/\/ attribute type$/;"	m	struct:__anon3
+attrType	parser/parse.h	/^  int attrType;                         \/\/ type of attribute$/;"	m	struct:__anon5
+attrValue	catalog.h	/^  void *attrValue;                      \/\/ ptr to binary value$/;"	m	struct:__anon2
+attrValue	joinHT.h	/^	union JAttrType	attrValue;$/;"	m	struct:joinHashTbl::joinhashBucket	typeref:union:joinHashTbl::joinhashBucket::JAttrType
+attr_descrs	parser/interp.cpp	/^static ATTR_DESCR attr_descrs[MAXATTRS + 1];$/;"	v	file:
+attrlist	parser/parse.h	/^	    struct node *attrlist;$/;"	m	struct:node::__anon9::__anon10	typeref:struct:node::__anon9::__anon10::node
+attrlist	parser/parse.h	/^	    struct node *attrlist;$/;"	m	struct:node::__anon9::__anon11	typeref:struct:node::__anon9::__anon11::node
+attrlist	parser/parse.h	/^	    struct node *attrlist;$/;"	m	struct:node::__anon9::__anon13	typeref:struct:node::__anon9::__anon13::node
+attrname	parser/parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon9::__anon15
+attrname	parser/parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon9::__anon16
+attrname	parser/parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon9::__anon22
+attrname	parser/parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon9::__anon23
+attrname	parser/parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon9::__anon24
+attrname	parser/parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon9::__anon25
+attrtype_node	parser/nodes.cpp	/^NODE *attrtype_node(char *attrname, int type \/* char *type *\/)$/;"	f
+attrval_node	parser/nodes.cpp	/^NODE *attrval_node(char *attrname, NODE *value)$/;"	f
+bucketCnt	joinHT.h	/^	int bucketCnt;  \/\/ nuumber of buckets on this chain$/;"	m	struct:joinHashTbl::HTentry
+bufMgr	dbcreate.cpp	/^BufMgr *bufMgr;$/;"	v
+bufMgr	minirel.cpp	/^BufMgr *bufMgr;$/;"	v
+bufPool	buf.h	/^  Page*	         bufPool;   \/\/ actual buffer pool$/;"	m	class:BufMgr
+bufStats	buf.h	/^  BufStats	 bufStats;	\/\/ buffer pool statistics$/;"	m	class:BufMgr
+bufTable	buf.h	/^  BufDesc*	 bufTable;  	\/\/ vector of status info, 1 per page$/;"	m	class:BufMgr
+buffer	sort.h	/^  SORTREC* buffer;                      \/\/ in-memory sort buffer$/;"	m	class:SortedFile
+build_node	parser/nodes.cpp	/^NODE *build_node(char *relname, char *attrname, int nbuckets)$/;"	f
+chain	joinHT.h	/^	joinhashBucket*   chain;  \/\/ pointer to first bucket on the chain$/;"	m	struct:joinHashTbl::HTentry
+charpool	parser/scanhelp.cpp	/^static char charpool[MAXCHAR];          \/\/ buffer for string allocation$/;"	v	file:
+charptr	parser/scanhelp.cpp	/^static int charptr = 0;$/;"	v	file:
+cleanup_func	parser/nodes.cpp	/^static void (*cleanup_func)() = NULL;$/;"	v	file:
+clear	buf.h	/^  void clear()$/;"	f	struct:BufStats
+clearBufStats	buf.h	/^  const void clearBufStats() $/;"	f	class:BufMgr
+clockHand	buf.h	/^  unsigned int 	 clockHand;$/;"	m	class:BufMgr
+close	db.cpp	/^const Status File::close()$/;"	f	class:File
+closeFile	db.cpp	/^const Status DB::closeFile(File* file)$/;"	f	class:DB
+create	db.cpp	/^Status const File::create(const string & fileName)$/;"	f	class:File
+createFile	db.cpp	/^const Status DB::createFile(const string &fileName) $/;"	f	class:DB
+createHeapFile	heapfile.cpp	/^const Status createHeapFile(const string fileName)$/;"	f
+createRel	create.cpp	/^const Status RelCatalog::createRel(const string & relation, $/;"	f	class:RelCatalog
+create_node	parser/nodes.cpp	/^NODE *create_node(char *relname, NODE *attrlist, NODE *primattr)$/;"	f
+curDirtyFlag	heapfile.h	/^   bool  	curDirtyFlag;   \/\/ true if page has been updated$/;"	m	class:HeapFile
+curPage	heapfile.h	/^   Page* 	curPage;	\/\/ data page currently pinned in buffer pool$/;"	m	class:HeapFile
+curPage	page.h	/^    int		curPage;  \/\/ page number of current pointer$/;"	m	class:Page
+curPageNo	heapfile.h	/^   int   	curPageNo;	\/\/ page number of pinned page$/;"	m	class:HeapFile
+curRec	heapfile.h	/^   RID   	curRec;         \/\/ rid of last record returned$/;"	m	class:HeapFile
+data	page.h	/^    char 	data[PAGESIZE - DPFIXED]; $/;"	m	class:Page
+data	page.h	/^  void* data;$/;"	m	struct:Record
+db	dbcreate.cpp	/^DB db;$/;"	v
+db	minirel.cpp	/^DB db;$/;"	v
+deleteRecord	heapfile.cpp	/^const Status HeapFileScan::deleteRecord()$/;"	f	class:HeapFileScan
+deleteRecord	page.cpp	/^const Status Page::deleteRecord(const RID & rid)$/;"	f	class:Page
+delete_node	parser/nodes.cpp	/^NODE *delete_node(char *relname, NODE *qual)$/;"	f
+destroy	db.cpp	/^const Status File::destroy(const string & fileName)$/;"	f	class:File
+destroyFile	db.cpp	/^const Status DB::destroyFile(const string & fileName) $/;"	f	class:DB
+destroyHeapFile	heapfile.cpp	/^const Status destroyHeapFile(const string fileName)$/;"	f
+destroyRel	destroy.cpp	/^const Status RelCatalog::destroyRel(const string & relation)$/;"	f	class:RelCatalog
+destroy_node	parser/nodes.cpp	/^NODE *destroy_node(char *relname)$/;"	f
+dirty	buf.h	/^  bool 	dirty;	  \/\/ true if dirty;  false otherwise$/;"	m	class:BufDesc
+diskreads	buf.h	/^  int diskreads;   \/\/ Number of pages read from disk (including allocs)$/;"	m	struct:BufStats
+diskwrites	buf.h	/^  int diskwrites;  \/\/ Number of pages written back to disk$/;"	m	struct:BufStats
+disposePage	buf.cpp	/^const Status BufMgr::disposePage(File* file, const int pageNo) $/;"	f	class:BufMgr
+disposePage	db.cpp	/^const Status File::disposePage(const int pageNo)$/;"	f	class:File
+dropRelation	destroy.cpp	/^const Status AttrCatalog::dropRelation(const string & relation)$/;"	f	class:AttrCatalog
+drop_node	parser/nodes.cpp	/^NODE *drop_node(char *relname, char *attrname)$/;"	f
+dummy	page.h	/^    short	dummy;	\/\/ for alignment purposes$/;"	m	class:Page
+dumpPage	page.cpp	/^void Page::dumpPage() const$/;"	f	class:Page
+echo_query	parser/interp.cpp	/^static void echo_query(NODE *n)$/;"	f	file:
+endScan	heapfile.cpp	/^const Status HeapFileScan::endScan()$/;"	f	class:HeapFileScan
+erase	db.cpp	/^Status OpenFileHashTbl::erase(const string fileName)$/;"	f	class:OpenFileHashTbl
+error	dbcreate.cpp	/^Error error;$/;"	v
+error	minirel.cpp	/^Error error;$/;"	v
+fValue	joinHT.h	/^	float fValue;$/;"	m	union:joinHashTbl::JAttrType
+field	sort.h	/^  char* field;                          \/\/ pointer to field$/;"	m	struct:__anon30
+file	buf.h	/^	File*	file;    \/\/ pointer a file object (more on this below)$/;"	m	struct:hashBucket
+file	buf.h	/^  File* file;   \/\/ pointer to file object$/;"	m	class:BufDesc
+file	db.h	/^        File*   file;    \/\/ pointer to file object$/;"	m	struct:fileHashBucket
+fileHashBucket	db.h	/^struct fileHashBucket$/;"	s
+fileName	db.h	/^  string fileName;                    \/\/ The name of the file$/;"	m	class:File
+fileName	heapfile.h	/^  char		fileName[MAXNAMESIZE];   \/\/ name of file$/;"	m	struct:FileHdrPage
+fileName	sort.h	/^  string fileName;                      \/\/ name of source file to sort$/;"	m	class:SortedFile
+filePtr	heapfile.h	/^   File* 	filePtr;        \/\/ underlying DB File object$/;"	m	class:HeapFile
+filename	parser/parse.h	/^	    char *filename;$/;"	m	struct:node::__anon9::__anon17
+filter	heapfile.h	/^    const char* filter;      \/\/ comparison value of filter$/;"	m	class:HeapFileScan
+find	db.cpp	/^Status OpenFileHashTbl::find(const string fileName, File*& file)$/;"	f	class:OpenFileHashTbl
+find_match_in_alias	parser/nodes.cpp	/^char *find_match_in_alias(NODE *alias, char *rel_alias)$/;"	f
+firstPage	db.h	/^  int firstPage;                        \/\/ page # of first page in file$/;"	m	struct:__anon4
+firstPage	heapfile.h	/^  int		firstPage;	\/\/ pageNo of first data page in file$/;"	m	struct:FileHdrPage
+firstRecord	page.cpp	/^const Status Page::firstRecord(RID& firstRid) const$/;"	f	class:Page
+float_node	parser/nodes.cpp	/^NODE *float_node(float rval)$/;"	f
+floatcmp	sort.cpp	/^static int floatcmp(const void* p1, const void* p2)$/;"	f	file:
+flushFile	buf.cpp	/^const Status BufMgr::flushFile(const File* file) $/;"	f	class:BufMgr
+fname	db.h	/^	string	fname;    \/\/ name of the file$/;"	m	struct:fileHashBucket
+frameNo	buf.h	/^	int	frameNo; \/\/ frame number of page in the buffer pool$/;"	m	struct:hashBucket
+frameNo	buf.h	/^  int	frameNo;  \/\/ frame # of frame$/;"	m	class:BufDesc
+freePtr	page.h	/^    short	freePtr; \/\/ offset of first free byte in data[]$/;"	m	class:Page
+freeSpace	page.h	/^    short	freeSpace; \/\/ number of bytes free in data[]$/;"	m	class:Page
+generateRun	sort.cpp	/^Status SortedFile::generateRun(int items)$/;"	f	class:SortedFile
+getBufStats	buf.h	/^  const BufStats & getBufStats() const \/\/ get buffer pool usage$/;"	f	class:BufMgr
+getFirstPage	db.cpp	/^const Status File::getFirstPage(int& pageNo) const$/;"	f	class:File
+getFreeSpace	page.cpp	/^const short Page::getFreeSpace() const$/;"	f	class:Page
+getInfo	catalog.cpp	/^const Status AttrCatalog::getInfo(const string & relation, $/;"	f	class:AttrCatalog
+getInfo	catalog.cpp	/^const Status RelCatalog::getInfo(const string & relation, RelDesc &record)$/;"	f	class:RelCatalog
+getNextPage	page.cpp	/^const Status Page::getNextPage(int& pageNo) const$/;"	f	class:Page
+getRecCnt	heapfile.cpp	/^const int HeapFile::getRecCnt() const$/;"	f	class:HeapFile
+getRecord	heapfile.cpp	/^const Status HeapFile::getRecord(const RID &  rid, Record & rec)$/;"	f	class:HeapFile
+getRecord	heapfile.cpp	/^const Status HeapFileScan::getRecord(Record & rec)$/;"	f	class:HeapFileScan
+getRecord	page.cpp	/^const Status Page::getRecord(const RID & rid, Record & rec)$/;"	f	class:Page
+getRelInfo	catalog.cpp	/^const Status AttrCatalog::getRelInfo(const string & relation, $/;"	f	class:AttrCatalog
+get_id	parser/scanhelp.cpp	/^static int get_id(char *s)$/;"	f	file:
+get_qstring	parser/scanhelp.cpp	/^static char *get_qstring(char *qstring, int len)$/;"	f	file:
+gotoMark	sort.cpp	/^Status SortedFile::gotoMark()$/;"	f	class:SortedFile
+hash	bufHash.cpp	/^int BufHashTbl::hash(const File* file, const int pageNo)$/;"	f	class:BufHashTbl
+hash	db.cpp	/^int OpenFileHashTbl::hash(const string fileName)$/;"	f	class:OpenFileHashTbl
+hash	joinHT.cpp	/^int joinHashTbl::hash(const char* attrPtr, int attrType)$/;"	f	class:joinHashTbl
+hashBucket	buf.h	/^struct hashBucket$/;"	s
+hashTable	buf.h	/^  BufHashTbl*    hashTable;  	\/\/ hash table mapping (File, page) to frame$/;"	m	class:BufMgr
+hdrDirtyFlag	heapfile.h	/^   bool		hdrDirtyFlag;   \/\/ true if header page has been updated$/;"	m	class:HeapFile
+headerPage	heapfile.h	/^   FileHdrPage*  headerPage;	\/\/ pinned file header page in buffer pool$/;"	m	class:HeapFile
+headerPageNo	heapfile.h	/^   int		headerPageNo;	\/\/ page number of header page$/;"	m	class:HeapFile
+help	help.cpp	/^const Status RelCatalog::help(const string & relation)$/;"	f	class:RelCatalog
+help_node	parser/nodes.cpp	/^NODE *help_node(char *relname)$/;"	f
+hfile	sort.h	/^  HeapFile* hfile;                   \/\/ source file to sort$/;"	m	class:SortedFile
+hfs	sort.h	/^  HeapFileScan* hfs;                   \/\/ source file to sort$/;"	m	class:SortedFile
+ht	buf.h	/^    hashBucket**  ht; \/\/ actual hash table$/;"	m	class:BufHashTbl
+ht	db.h	/^    fileHashBucket**  ht; \/\/ actual hash table$/;"	m	class:OpenFileHashTbl
+ht	joinHT.h	/^    HTentry 	*ht; \/\/ actual hash table$/;"	m	class:joinHashTbl
+iValue	joinHT.h	/^	int iValue;$/;"	m	union:joinHashTbl::JAttrType
+inFile	sort.h	/^    HeapFileScan* inFile;               \/\/ ptr to input file$/;"	m	struct:SortedFile::__anon31
+init	page.cpp	/^void Page::init(int pageNo)$/;"	f	class:Page
+ins_attrs	parser/interp.cpp	/^static ATTR_VAL ins_attrs[MAXATTRS + 1];$/;"	v	file:
+insert	bufHash.cpp	/^Status BufHashTbl::insert(const File* file, const int pageNo, const int frameNo) {$/;"	f	class:BufHashTbl
+insert	db.cpp	/^Status OpenFileHashTbl::insert(const string fileName, File* file ) $/;"	f	class:OpenFileHashTbl
+insert	joinHT.cpp	/^Status joinHashTbl::insert(const RID newRid,  const char* tuple)$/;"	f	class:joinHashTbl
+insertRecord	heapfile.cpp	/^const Status InsertFileScan::insertRecord(const Record & rec, RID& outRid)$/;"	f	class:InsertFileScan
+insertRecord	page.cpp	/^const Status Page::insertRecord(const Record & rec, RID& rid)$/;"	f	class:Page
+insert_node	parser/nodes.cpp	/^NODE *insert_node(char *relname, NODE *attrlist)$/;"	f
+int_node	parser/nodes.cpp	/^NODE *int_node(int ival)$/;"	f
+intcmp	sort.cpp	/^static int intcmp(const void* p1, const void* p2)$/;"	f	file:
+interp	parser/interp.cpp	/^void interp(NODE *n)$/;"	f
+intread	db.cpp	/^const Status File::intread(int pageNo, Page* pagePtr) const$/;"	f	class:File
+intwrite	db.cpp	/^const Status File::intwrite(const int pageNo, const Page* pagePtr)$/;"	f	class:File
+ival	parser/parse.h	/^		int ival;$/;"	m	union:node::__anon9::__anon26::__anon27
+ival	parser/y.tab.h	/^  int ival;$/;"	m	union:YYSTYPE
+joinAttr	joinHT.h	/^    AttrDesc 	joinAttr;$/;"	m	class:joinHashTbl
+joinHashTbl	joinHT.cpp	/^joinHashTbl::joinHashTbl(const int size, const AttrDesc attr)$/;"	f	class:joinHashTbl
+joinHashTbl	joinHT.h	/^class joinHashTbl$/;"	c
+join_node	parser/nodes.cpp	/^NODE *join_node(NODE *joinattr1, int op, NODE *joinattr2)$/;"	f
+joinattr1	parser/parse.h	/^	    struct node *joinattr1;$/;"	m	struct:node::__anon9::__anon21	typeref:struct:node::__anon9::__anon21::node
+joinattr2	parser/parse.h	/^	    struct node *joinattr2;$/;"	m	struct:node::__anon9::__anon21	typeref:struct:node::__anon9::__anon21::node
+joinhashBucket	joinHT.h	/^    struct joinhashBucket$/;"	s	class:joinHashTbl
+kind	parser/parse.h	/^    NODEKIND kind;$/;"	m	struct:node
+lastPage	heapfile.h	/^  int		lastPage;	\/\/ pageNo of last data page in file$/;"	m	struct:FileHdrPage
+len	parser/parse.h	/^	    int len;$/;"	m	struct:node::__anon9::__anon26
+length	heapfile.h	/^    int   length;            \/\/ length of filter attribute$/;"	m	class:HeapFileScan
+length	page.h	/^        short	length;  \/\/ equals -1 if slot is not in use$/;"	m	struct:slot_t
+length	page.h	/^  int length;$/;"	m	struct:Record
+length	sort.h	/^  int length;                           \/\/ length of field$/;"	m	struct:__anon30
+length	sort.h	/^  int length;                           \/\/ length of sort attribute$/;"	m	class:SortedFile
+length_of	parser/interp.cpp	/^static int length_of(NODE *n)$/;"	f	file:
+listFree	db.cpp	/^void File::listFree()$/;"	f	class:File
+list_node	parser/nodes.cpp	/^NODE *list_node(NODE *n)$/;"	f
+load_node	parser/nodes.cpp	/^NODE *load_node(char *relname, char *filename)$/;"	f
+lookup	bufHash.cpp	/^Status BufHashTbl::lookup(const File* file, const int pageNo, int& frameNo) $/;"	f	class:BufHashTbl
+lookup	joinHT.cpp	/^Status joinHashTbl::lookup(const char* innerJoinAttrPtr, int & ridCnt, RID *&outRids)$/;"	f	class:joinHashTbl
+lower	parser/scanhelp.cpp	/^static int lower(char *dst, char *src, int max)$/;"	f	file:
+main	dbcreate.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	dbdestroy.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	minirel.cpp	/^int main(int argc, char **argv)$/;"	f
+mark	sort.h	/^    RID mark;$/;"	m	struct:SortedFile::__anon31
+markDirty	heapfile.cpp	/^const Status HeapFileScan::markDirty()$/;"	f	class:HeapFileScan
+markScan	heapfile.cpp	/^const Status HeapFileScan::markScan()$/;"	f	class:HeapFileScan
+markedPageNo	heapfile.h	/^    int   markedPageNo;	\/\/ page number of pinned page$/;"	m	class:HeapFileScan
+markedRec	heapfile.h	/^    RID   markedRec;         \/\/ rid of last record returned$/;"	m	class:HeapFileScan
+matchRec	heapfile.cpp	/^const bool HeapFileScan::matchRec(const Record & rec) const$/;"	f	class:HeapFileScan
+matchRec	join.cpp	/^const int matchRec(const Record & outerRec,$/;"	f
+maxItems	sort.h	/^  int maxItems;                         \/\/ max. # of items\/tuples in buffer$/;"	m	class:SortedFile
+merge_attr_value_list	parser/nodes.cpp	/^NODE *merge_attr_value_list(NODE *attr_list, NODE *value_list)$/;"	f
+mk_attr_descrs	parser/interp.cpp	/^static int mk_attr_descrs(NODE *list, ATTR_DESCR attr_descrs[])$/;"	f	file:
+mk_attrnames	parser/interp.cpp	/^static int mk_attrnames(NODE *list, char *attrnames[], char *relname)$/;"	f	file:
+mk_ins_attrs	parser/interp.cpp	/^static int mk_ins_attrs(NODE *list, ATTR_VAL ins_attrs[])$/;"	f	file:
+mk_qual_attrs	parser/interp.cpp	/^static int mk_qual_attrs(NODE *list, REL_ATTR qual_attrs[],$/;"	f	file:
+mk_string	parser/scanhelp.cpp	/^static char *mk_string(char *s, int len)$/;"	f	file:
+n	parser/y.tab.h	/^  NODE *n;$/;"	m	union:YYSTYPE
+name	sort.h	/^    string name;                        \/\/ name of run file$/;"	m	struct:SortedFile::__anon31
+names	parser/interp.cpp	/^static char *names[MAXATTRS + 1];$/;"	v	file:
+nbuckets	parser/parse.h	/^	    int nbuckets;$/;"	m	struct:node::__anon9::__anon15
+nbuckets	parser/parse.h	/^	    int nbuckets;$/;"	m	struct:node::__anon9::__anon23
+new_query	parser/nodes.cpp	/^void new_query(void)$/;"	f
+newnode	parser/nodes.cpp	/^NODE *newnode(int kind)$/;"	f
+next	buf.h	/^	hashBucket* 	next;	 \/\/ next node in the hash table$/;"	m	struct:hashBucket
+next	db.h	/^	fileHashBucket* next;	 \/\/ next node in the hash table$/;"	m	struct:fileHashBucket
+next	joinHT.h	/^       	joinhashBucket*     next;    \/\/ next node in the hash table$/;"	m	struct:joinHashTbl::joinhashBucket
+next	parser/parse.h	/^	  struct node *next;$/;"	m	struct:node::__anon9::__anon28	typeref:struct:node::__anon9::__anon28::node
+next	sort.cpp	/^Status SortedFile::next(Record & rec)$/;"	f	class:SortedFile
+nextFree	db.h	/^  int nextFree;                         \/\/ page # of next page on free list$/;"	m	struct:__anon4
+nextPage	page.h	/^    int		nextPage; \/\/ forwards pointer$/;"	m	class:Page
+nextRecord	page.cpp	/^const Status Page::nextRecord (const RID &curRid, RID& nextRid) const$/;"	f	class:Page
+node	parser/parse.h	/^typedef struct node {$/;"	s
+nodepool	parser/nodes.cpp	/^static NODE nodepool[MAXNODE];$/;"	v	file:
+nodeptr	parser/nodes.cpp	/^static int nodeptr = 0;$/;"	v	file:
+numBufs	buf.h	/^  int   	 numBufs;    	\/\/ Number of pages in buffer pool$/;"	m	class:BufMgr
+numItems	sort.h	/^  int numItems;                         \/\/ current # of items in buffer$/;"	m	class:SortedFile
+numPages	db.h	/^  int numPages;                         \/\/ total # of pages in file$/;"	m	struct:__anon4
+offset	heapfile.h	/^    int   offset;            \/\/ byte offset of filter attribute$/;"	m	class:HeapFileScan
+offset	page.h	/^        short	offset;  $/;"	m	struct:slot_t
+offset	sort.h	/^  int offset;                           \/\/ offset of sort attribute$/;"	m	class:SortedFile
+op	heapfile.h	/^    Operator op;             \/\/ comparison operator of filter$/;"	m	class:HeapFileScan
+op	parser/parse.h	/^	    int op;$/;"	m	struct:node::__anon9::__anon20
+op	parser/parse.h	/^	    int op;$/;"	m	struct:node::__anon9::__anon21
+open	db.cpp	/^const Status File::open()$/;"	f	class:File
+openCnt	db.h	/^  int openCnt;                        \/\/ # times file has been opened$/;"	m	class:File
+openFile	db.cpp	/^const Status DB::openFile(const string & fileName, File*& filePtr)$/;"	f	class:DB
+openFiles	db.h	/^  OpenFileHashTbl   openFiles;    \/\/ list of open files$/;"	m	class:DB
+operator ==	db.h	/^  bool operator == (const File & other) const$/;"	f	class:File
+outFile	sort.h	/^    InsertFileScan* outFile;		\/\/ ptr to output file$/;"	m	struct:SortedFile::__anon31
+pageCnt	heapfile.h	/^  int		pageCnt;	\/\/ number of pages$/;"	m	struct:FileHdrPage
+pageNo	buf.h	/^	int	pageNo;  \/\/ page number within a file$/;"	m	struct:hashBucket
+pageNo	buf.h	/^  int   pageNo; \/\/ page within file$/;"	m	class:BufDesc
+pageNo	page.h	/^    int  pageNo;$/;"	m	struct:RID
+pageNo	rid.h	/^    int  pageNo;$/;"	m	struct:RID
+parse_format_string	parser/interp.cpp	/^static int parse_format_string(int format, int *type, int *len)$/;"	f	file:
+partName	partition.h	/^  string *partName;                      \/\/ partition names$/;"	m	class:Partition
+pinCnt	buf.h	/^  int   pinCnt; \/\/ number of times this page has been pinned$/;"	m	class:BufDesc
+prepend	parser/nodes.cpp	/^NODE *prepend(NODE *n, NODE *list)$/;"	f
+primattr	parser/parse.h	/^	    struct node *primattr;$/;"	m	struct:node::__anon9::__anon13	typeref:struct:node::__anon9::__anon13::node
+primattr_node	parser/nodes.cpp	/^NODE *primattr_node(char *attrname, int nbuckets)$/;"	f
+print	error.cpp	/^void Error::print(Status status)$/;"	f	class:Error
+printSelf	buf.cpp	/^void BufMgr::printSelf(void) $/;"	f	class:BufMgr
+print_attrdescrs	parser/interp.cpp	/^static void print_attrdescrs(NODE *n)$/;"	f	file:
+print_attrnames	parser/interp.cpp	/^static void print_attrnames(NODE *n)$/;"	f	file:
+print_attrvals	parser/interp.cpp	/^static void print_attrvals(NODE *n)$/;"	f	file:
+print_error	parser/interp.cpp	/^static void print_error(char *errmsg, int errval)$/;"	f	file:
+print_node	parser/nodes.cpp	/^NODE *print_node(char *relname)$/;"	f
+print_op	parser/interp.cpp	/^static void print_op(int op)$/;"	f	file:
+print_primattr	parser/interp.cpp	/^static void print_primattr(NODE *n)$/;"	f	file:
+print_qual	parser/interp.cpp	/^static void print_qual(NODE *n)$/;"	f	file:
+print_qualattr	parser/interp.cpp	/^static void print_qualattr(NODE *n)$/;"	f	file:
+print_val	parser/interp.cpp	/^static void print_val(NODE *n)$/;"	f	file:
+qual	parser/parse.h	/^	    struct node *qual;$/;"	m	struct:node::__anon9::__anon10	typeref:struct:node::__anon9::__anon10::node
+qual	parser/parse.h	/^	    struct node *qual;$/;"	m	struct:node::__anon9::__anon12	typeref:struct:node::__anon9::__anon12::node
+qual_attrs	parser/interp.cpp	/^static REL_ATTR qual_attrs[MAXATTRS + 1];$/;"	v	file:
+qualattr_node	parser/nodes.cpp	/^NODE *qualattr_node(char *relname, char *attrname)$/;"	f
+query_node	parser/nodes.cpp	/^NODE *query_node(char *relname, NODE *attrlist, NODE *qual)$/;"	f
+quit	parser/interp.cpp	/^void quit(void)$/;"	f
+readPage	buf.cpp	/^const Status BufMgr::readPage(File* file, const int PageNo, Page*& page)$/;"	f	class:BufMgr
+readPage	db.cpp	/^const Status File::readPage(const int pageNo, Page* pagePtr) const$/;"	f	class:File
+rebuild_node	parser/nodes.cpp	/^NODE *rebuild_node(char *relname, char *attrname, int nbuckets)$/;"	f
+rec	sort.h	/^    Record rec;$/;"	m	struct:SortedFile::__anon31
+recCnt	heapfile.h	/^  int		recCnt;		\/\/ record count$/;"	m	struct:FileHdrPage
+reccmp	sort.cpp	/^static int reccmp(char* p1, char* p2, int p1Len, int p2Len, Datatype type)$/;"	f	file:
+refbit	buf.h	/^  bool  refbit;	 \/\/ has this buffer frame been reference recently$/;"	m	class:BufDesc
+register_cleanup_function	parser/nodes.cpp	/^void register_cleanup_function(void (*func)())$/;"	f
+relCat	dbcreate.cpp	/^RelCatalog *relCat;$/;"	v
+relCat	minirel.cpp	/^RelCatalog *relCat;$/;"	v
+relName	catalog.h	/^  char relName[MAXNAME];                \/\/ relation name$/;"	m	struct:__anon1
+relName	catalog.h	/^  char relName[MAXNAME];                \/\/ relation name$/;"	m	struct:__anon2
+relName	catalog.h	/^  char relName[MAXNAME];                \/\/ relation name$/;"	m	struct:__anon3
+relName	parser/parse.h	/^  char *relName;                        \/\/ relation name$/;"	m	struct:__anon6
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon10
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon11
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon12
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon13
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon14
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon15
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon16
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon17
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon18
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon19
+relname	parser/parse.h	/^	    char *relname;$/;"	m	struct:node::__anon9::__anon22
+relname	parser/parse.h	/^	  char *relname;$/;"	m	struct:node::__anon9::__anon29
+remove	bufHash.cpp	/^Status BufHashTbl::remove(const File* file, const int pageNo) {$/;"	f	class:BufHashTbl
+removeInfo	catalog.cpp	/^const Status AttrCatalog::removeInfo(const string & relation, $/;"	f	class:AttrCatalog
+removeInfo	catalog.cpp	/^const Status RelCatalog::removeInfo(const string & relation)$/;"	f	class:RelCatalog
+replace_alias_in_condition	parser/nodes.cpp	/^NODE *replace_alias_in_condition(NODE *alias, NODE *where)$/;"	f
+replace_alias_in_qualattr_list	parser/nodes.cpp	/^NODE *replace_alias_in_qualattr_list(NODE *alias, NODE *qualattr_list)$/;"	f
+resetScan	heapfile.cpp	/^const Status HeapFileScan::resetScan()$/;"	f	class:HeapFileScan
+reset_charptr	parser/scanhelp.cpp	/^void reset_charptr(void)$/;"	f
+reset_parser	parser/nodes.cpp	/^void reset_parser(void)$/;"	f
+reset_scanner	parser/scanhelp.cpp	/^void reset_scanner(void)$/;"	f
+rid	joinHT.h	/^       	RID	rid;$/;"	m	struct:joinHashTbl::joinhashBucket
+rid	sort.h	/^    RID rid;                            \/\/ RID of current record of run$/;"	m	struct:SortedFile::__anon31
+rid	sort.h	/^  RID rid;                              \/\/ record id of current record$/;"	m	struct:__anon30
+runs	sort.h	/^  vector<RUN> runs;                   \/\/ holds info about each sub-run$/;"	m	class:SortedFile
+rval	parser/parse.h	/^		float rval;$/;"	m	union:node::__anon9::__anon26::__anon27
+rval	parser/y.tab.h	/^  float rval;$/;"	m	union:YYSTYPE
+sValue	joinHT.h	/^	char* sValue;$/;"	m	union:joinHashTbl::JAttrType
+scanNext	heapfile.cpp	/^const Status HeapFileScan::scanNext(RID& outRid)$/;"	f	class:HeapFileScan
+selattr	parser/parse.h	/^	    struct node *selattr;$/;"	m	struct:node::__anon9::__anon20	typeref:struct:node::__anon9::__anon20::node
+select_node	parser/nodes.cpp	/^NODE *select_node(NODE *selattr, int op, NODE *value)$/;"	f
+self	parser/parse.h	/^	  struct node *self;$/;"	m	struct:node::__anon9::__anon28	typeref:struct:node::__anon9::__anon28::node
+setMark	sort.cpp	/^Status SortedFile::setMark()$/;"	f	class:SortedFile
+setNextPage	page.cpp	/^const Status Page::setNextPage(int pageNo)$/;"	f	class:Page
+slot	page.h	/^    slot_t 	slot[1]; \/\/ first element of slot array - grows backwards!$/;"	m	class:Page
+slotCnt	page.h	/^    short	slotCnt; \/\/ number of slots in use;$/;"	m	class:Page
+slotNo	page.h	/^    int	 slotNo;$/;"	m	struct:RID
+slotNo	rid.h	/^    int	 slotNo;$/;"	m	struct:RID
+slot_t	page.h	/^struct slot_t {$/;"	s
+sortFile	sort.cpp	/^Status SortedFile::sortFile()$/;"	f	class:SortedFile
+startScan	heapfile.cpp	/^const Status HeapFileScan::startScan(const int offset_,$/;"	f	class:HeapFileScan
+startScans	sort.cpp	/^Status SortedFile::startScans()$/;"	f	class:SortedFile
+string_alloc	parser/scanhelp.cpp	/^static char *string_alloc(int len)$/;"	f	file:
+string_node	parser/nodes.cpp	/^NODE *string_node(char *s)$/;"	f
+stringcmp	sort.cpp	/^static int stringcmp(const void* p1, const void* p2)$/;"	f	file:
+sval	parser/parse.h	/^		char *sval;$/;"	m	union:node::__anon9::__anon26::__anon27
+sval	parser/y.tab.h	/^  char *sval;$/;"	m	union:YYSTYPE
+type	heapfile.h	/^    Datatype type;           \/\/ datatype of filter attribute$/;"	m	class:HeapFileScan
+type	parser/parse.h	/^	    int  type;$/;"	m	struct:node::__anon9::__anon25
+type	parser/parse.h	/^	    int type;$/;"	m	struct:node::__anon9::__anon26
+type	sort.h	/^  Datatype type;                        \/\/ type of sort attribute$/;"	m	class:SortedFile
+type_of	parser/interp.cpp	/^static int type_of(NODE *n)$/;"	f	file:
+u	parser/parse.h	/^	    } u;$/;"	m	struct:node::__anon9::__anon26	typeref:union:node::__anon9::__anon26::__anon27
+u	parser/parse.h	/^    } u;$/;"	m	struct:node	typeref:union:node::__anon9
+unPinPage	buf.cpp	/^const Status BufMgr::unPinPage(File* file, const int PageNo, $/;"	f	class:BufMgr
+unixFile	db.h	/^  int unixFile;                       \/\/ unix file stream for file$/;"	m	class:File
+valLength	parser/parse.h	/^  int valLength;                        \/\/ length if type = STRING_TYPE$/;"	m	struct:__anon7
+valType	parser/parse.h	/^  int valType;                          \/\/ type of value$/;"	m	struct:__anon7
+valid	buf.h	/^  bool 	valid;   \/\/ true if page is valid$/;"	m	class:BufDesc
+valid	sort.h	/^    int valid;                          \/\/ TRUE if recPtr has a record$/;"	m	struct:SortedFile::__anon31
+value	parser/parse.h	/^	    struct node *value;$/;"	m	struct:node::__anon9::__anon20	typeref:struct:node::__anon9::__anon20::node
+value	parser/parse.h	/^	    struct node *value;$/;"	m	struct:node::__anon9::__anon24	typeref:struct:node::__anon9::__anon24::node
+value	parser/parse.h	/^  void *value;                          \/\/ value for attribute$/;"	m	struct:__anon7
+value_of	parser/interp.cpp	/^static void *value_of(NODE *n)$/;"	f	file:
+writePage	db.cpp	/^const Status File::writePage(const int pageNo, const Page *pagePtr)$/;"	f	class:File
+yystype	parser/y.tab.h	147;"	d
+yytokentype	parser/y.tab.h	/^   enum yytokentype {$/;"	g
+yywrap	parser/yywrap.c	/^int yywrap()$/;"	f
+~AttrCatalog	catalog.cpp	/^AttrCatalog::~AttrCatalog()$/;"	f	class:AttrCatalog
+~BufHashTbl	bufHash.cpp	/^BufHashTbl::~BufHashTbl()$/;"	f	class:BufHashTbl
+~BufMgr	buf.cpp	/^BufMgr::~BufMgr() {$/;"	f	class:BufMgr
+~DB	db.cpp	/^DB::~DB()$/;"	f	class:DB
+~File	db.cpp	/^File::~File()$/;"	f	class:File
+~HeapFile	heapfile.cpp	/^HeapFile::~HeapFile()$/;"	f	class:HeapFile
+~HeapFileScan	heapfile.cpp	/^HeapFileScan::~HeapFileScan()$/;"	f	class:HeapFileScan
+~InsertFileScan	heapfile.cpp	/^InsertFileScan::~InsertFileScan()$/;"	f	class:InsertFileScan
+~OpenFileHashTbl	db.cpp	/^OpenFileHashTbl::~OpenFileHashTbl()$/;"	f	class:OpenFileHashTbl
+~Partition	partition.cpp	/^Partition::~Partition()$/;"	f	class:Partition
+~RelCatalog	catalog.cpp	/^RelCatalog::~RelCatalog()$/;"	f	class:RelCatalog
+~SortedFile	sort.cpp	/^SortedFile::~SortedFile()$/;"	f	class:SortedFile
+~joinHashTbl	joinHT.cpp	/^joinHashTbl::~joinHashTbl()$/;"	f	class:joinHashTbl

@@ -1,0 +1,261 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASSERT	buf.cpp	11;"	d	file:
+ASSERT	error.h	70;"	d
+ATTRNOTFOUND	error.h	/^       BADCATPARM, RELNOTFOUND, ATTRNOTFOUND,$/;"	e	enum:Status
+ATTRTOOLONG	error.h	/^       INDEXEXISTS, ATTRTOOLONG,$/;"	e	enum:Status
+ATTRTYPEMISMATCH	error.h	/^       ATTRTYPEMISMATCH, TMP_RES_EXISTS,$/;"	e	enum:Status
+BADBUFFER	error.h	/^       BADBUFFER, PAGEPINNED,$/;"	e	enum:Status
+BADCATPARM	error.h	/^       BADCATPARM, RELNOTFOUND, ATTRNOTFOUND,$/;"	e	enum:Status
+BADFILE	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+BADFILEPTR	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+BADINDEXPARM	error.h	/^       BADINDEXPARM, RECNOTFOUND, BUCKETFULL, DIROVERFLOW, $/;"	e	enum:Status
+BADPAGENO	error.h	/^       UNIXERR, BADPAGEPTR, BADPAGENO, FILEEXISTS,$/;"	e	enum:Status
+BADPAGEPTR	error.h	/^       UNIXERR, BADPAGEPTR, BADPAGENO, FILEEXISTS,$/;"	e	enum:Status
+BADRECPTR	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+BADRID	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+BADSCANID	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+BADSCANPARM	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+BADSORTPARM	error.h	/^       BADSORTPARM, INSUFMEM, $/;"	e	enum:Status
+BUCKETFULL	error.h	/^       BADINDEXPARM, RECNOTFOUND, BUCKETFULL, DIROVERFLOW, $/;"	e	enum:Status
+BUFFEREXCEEDED	error.h	/^       HASHTBLERROR, HASHNOTFOUND, BUFFEREXCEEDED, PAGENOTPINNED,$/;"	e	enum:Status
+BUF_H	buf.h	2;"	d
+BufDesc	buf.h	/^  BufDesc() {$/;"	f	class:BufDesc
+BufDesc	buf.h	/^class BufDesc {$/;"	c
+BufHashTbl	buf.h	/^class BufHashTbl$/;"	c
+BufHashTbl	bufHash.cpp	/^BufHashTbl::BufHashTbl(int htSize)$/;"	f	class:BufHashTbl
+BufMgr	buf.cpp	/^BufMgr::BufMgr(const int bufs)$/;"	f	class:BufMgr
+BufMgr	buf.h	/^class BufMgr $/;"	c
+BufStats	buf.h	/^  BufStats()$/;"	f	struct:BufStats
+BufStats	buf.h	/^struct BufStats$/;"	s
+CXX	Makefile	/^CXX =           g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS =	-g -Wall$/;"	m
+Clear	buf.h	/^  void Clear() {  \/\/ initialize buffer frame for a new user$/;"	f	class:BufDesc
+DB	db.cpp	/^DB::DB()$/;"	f	class:DB
+DB	db.h	/^class DB {$/;"	c
+DBP	db.cpp	14;"	d	file:
+DBPage	db.h	/^} DBPage;$/;"	t	typeref:struct:__anon1
+DB_H	db.h	2;"	d
+DIROVERFLOW	error.h	/^       BADINDEXPARM, RECNOTFOUND, BUCKETFULL, DIROVERFLOW, $/;"	e	enum:Status
+DPFIXED	page.h	/^const unsigned DPFIXED= sizeof(slot_t)+4*sizeof(short)+2*sizeof(int);$/;"	v
+DUPLATTR	error.h	/^       NAMETOOLONG, DUPLATTR, RELEXISTS, NOINDEX,$/;"	e	enum:Status
+Datatype	heapfile.h	/^enum Datatype { STRING, INTEGER, FLOAT };    \/\/ attribute data types$/;"	g
+ENDOFPAGE	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+EQ	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+ERROR_H	error.h	3;"	d
+Error	error.h	/^class Error {$/;"	c
+FILEEOF	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+FILEEXISTS	error.h	/^       UNIXERR, BADPAGEPTR, BADPAGENO, FILEEXISTS,$/;"	e	enum:Status
+FILEHDRFULL	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+FILENOTOPEN	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+FILEOPEN	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+FILETABFULL	error.h	/^       BADFILEPTR, BADFILE, FILETABFULL, FILEOPEN, FILENOTOPEN,$/;"	e	enum:Status
+FLOAT	heapfile.h	/^enum Datatype { STRING, INTEGER, FLOAT };    \/\/ attribute data types$/;"	e	enum:Datatype
+File	db.cpp	/^File::File(const string & fname)$/;"	f	class:File
+File	db.h	/^class File {$/;"	c
+FileHdrPage	heapfile.h	/^struct FileHdrPage$/;"	s
+GT	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+GTE	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+HASHNOTFOUND	error.h	/^       HASHTBLERROR, HASHNOTFOUND, BUFFEREXCEEDED, PAGENOTPINNED,$/;"	e	enum:Status
+HASHTBLERROR	error.h	/^       HASHTBLERROR, HASHNOTFOUND, BUFFEREXCEEDED, PAGENOTPINNED,$/;"	e	enum:Status
+HEAPFILE_H	heapfile.h	2;"	d
+HTSIZE	buf.h	/^    int HTSIZE;$/;"	m	class:BufHashTbl
+HTSIZE	db.h	/^    int HTSIZE;$/;"	m	class:OpenFileHashTbl
+HeapFile	heapfile.cpp	/^HeapFile::HeapFile(const string & fileName, Status& returnStatus)$/;"	f	class:HeapFile
+HeapFile	heapfile.h	/^class HeapFile {$/;"	c
+HeapFileScan	heapfile.cpp	/^HeapFileScan::HeapFileScan(const string & name,$/;"	f	class:HeapFileScan
+HeapFileScan	heapfile.h	/^class HeapFileScan : public HeapFile$/;"	c
+INDEXEXISTS	error.h	/^       INDEXEXISTS, ATTRTOOLONG,$/;"	e	enum:Status
+INSUFMEM	error.h	/^       BADSORTPARM, INSUFMEM, $/;"	e	enum:Status
+INTEGER	heapfile.h	/^enum Datatype { STRING, INTEGER, FLOAT };    \/\/ attribute data types$/;"	e	enum:Datatype
+INVALIDRECLEN	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+INVALIDSLOTNO	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+InsertFileScan	heapfile.cpp	/^InsertFileScan::InsertFileScan(const string & name,$/;"	f	class:InsertFileScan
+InsertFileScan	heapfile.h	/^class InsertFileScan : public HeapFile$/;"	c
+LD	Makefile	/^LD =		ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS =	$/;"	m
+LT	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+LTE	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+MAKEFILE	Makefile	/^MAKEFILE =      Makefile$/;"	m
+MAXNAMESIZE	heapfile.h	/^const unsigned MAXNAMESIZE = 50;$/;"	v
+NAMETOOLONG	error.h	/^       NAMETOOLONG, DUPLATTR, RELEXISTS, NOINDEX,$/;"	e	enum:Status
+NE	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	e	enum:Operator
+NOINDEX	error.h	/^       NAMETOOLONG, DUPLATTR, RELEXISTS, NOINDEX,$/;"	e	enum:Status
+NOMORERECS	error.h	/^       NONUNIQUEENTRY, NOMORERECS,$/;"	e	enum:Status
+NONUNIQUEENTRY	error.h	/^       NONUNIQUEENTRY, NOMORERECS,$/;"	e	enum:Status
+NORECORDS	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+NOSPACE	error.h	/^       NOSPACE,  NORECORDS,  ENDOFPAGE, INVALIDSLOTNO, INVALIDRECLEN,$/;"	e	enum:Status
+NOTUSED1	error.h	/^       OK = 0, NOTUSED1 = -999,$/;"	e	enum:Status
+NOTUSED2	error.h	/^       NOTUSED2$/;"	e	enum:Status
+NULLRID	page.h	/^const RID NULLRID = {-1,-1};$/;"	v
+OBJS	Makefile	/^OBJS =  db.o buf.o bufHash.o error.o page.o heapfile.o testfile.o $/;"	m
+OK	error.h	/^       OK = 0, NOTUSED1 = -999,$/;"	e	enum:Status
+OpenFileHashTbl	db.cpp	/^OpenFileHashTbl::OpenFileHashTbl()$/;"	f	class:OpenFileHashTbl
+OpenFileHashTbl	db.h	/^class OpenFileHashTbl$/;"	c
+Operator	heapfile.h	/^enum Operator { LT, LTE, EQ, GTE, GT, NE };  \/\/ scan operators$/;"	g
+PAGEDATASIZE	page.h	/^const unsigned PAGEDATASIZE = PAGESIZE-DPFIXED+sizeof(slot_t);$/;"	v
+PAGENOTPINNED	error.h	/^       HASHTBLERROR, HASHNOTFOUND, BUFFEREXCEEDED, PAGENOTPINNED,$/;"	e	enum:Status
+PAGEPINNED	error.h	/^       BADBUFFER, PAGEPINNED,$/;"	e	enum:Status
+PAGESIZE	page.h	/^const unsigned PAGESIZE = 1024;$/;"	v
+PAGE_H	page.h	2;"	d
+PROGRAM	Makefile	/^PROGRAM = 	testfile$/;"	m
+PURIFY	Makefile	/^PURIFY =        purify -collector=\/usr\/ccs\/bin\/ld -g++$/;"	m
+Page	page.h	/^class Page {$/;"	c
+RECNOTFOUND	error.h	/^       BADINDEXPARM, RECNOTFOUND, BUCKETFULL, DIROVERFLOW, $/;"	e	enum:Status
+RELEXISTS	error.h	/^       NAMETOOLONG, DUPLATTR, RELEXISTS, NOINDEX,$/;"	e	enum:Status
+RELNOTFOUND	error.h	/^       BADCATPARM, RELNOTFOUND, ATTRNOTFOUND,$/;"	e	enum:Status
+RID	page.h	/^struct RID{$/;"	s
+Record	page.h	/^struct Record$/;"	s
+SCANTABFULL	error.h	/^       BADRID, BADRECPTR, BADSCANPARM, BADSCANID, SCANTABFULL, FILEEOF, FILEHDRFULL,$/;"	e	enum:Status
+SRCS	Makefile	/^SRCS =	db.cpp buf.cpp bufHash.cpp error.cpp page.cpp heapfile.cpp testfile.cpp $/;"	m
+STRING	heapfile.h	/^enum Datatype { STRING, INTEGER, FLOAT };    \/\/ attribute data types$/;"	e	enum:Datatype
+Set	buf.h	/^  void Set(File* filePtr, int pageNum) { $/;"	f	class:BufDesc
+Status	error.h	/^enum Status {$/;"	g
+TMP_RES_EXISTS	error.h	/^       ATTRTYPEMISMATCH, TMP_RES_EXISTS,$/;"	e	enum:Status
+UNIXERR	error.h	/^       UNIXERR, BADPAGEPTR, BADPAGENO, FILEEXISTS,$/;"	e	enum:Status
+accesses	buf.h	/^  int accesses;    \/\/ Total number of accesses to buffer pool$/;"	m	struct:BufStats
+advanceClock	buf.h	/^  void advanceClock()$/;"	f	class:BufMgr
+allocBuf	buf.cpp	/^const Status BufMgr::allocBuf(int & frame) $/;"	f	class:BufMgr
+allocPage	buf.cpp	/^const Status BufMgr::allocPage(File* file, int& pageNo, Page*& page) $/;"	f	class:BufMgr
+allocatePage	db.cpp	/^Status File::allocatePage(int& pageNo)$/;"	f	class:File
+bufMgr	testfile.cpp	/^BufMgr* bufMgr;$/;"	v
+bufPool	buf.h	/^  Page*	         bufPool;   \/\/ actual buffer pool$/;"	m	class:BufMgr
+bufStats	buf.h	/^  BufStats	 bufStats;	\/\/ buffer pool statistics$/;"	m	class:BufMgr
+bufTable	buf.h	/^  BufDesc*	 bufTable;  	\/\/ vector of status info, 1 per page$/;"	m	class:BufMgr
+clear	buf.h	/^  void clear()$/;"	f	struct:BufStats
+clearBufStats	buf.h	/^  const void clearBufStats() $/;"	f	class:BufMgr
+clockHand	buf.h	/^  unsigned int 	 clockHand;$/;"	m	class:BufMgr
+close	db.cpp	/^const Status File::close()$/;"	f	class:File
+closeFile	db.cpp	/^const Status DB::closeFile(File* file)$/;"	f	class:DB
+create	db.cpp	/^Status const File::create(const string & fileName)$/;"	f	class:File
+createFile	db.cpp	/^const Status DB::createFile(const string &fileName) $/;"	f	class:DB
+createHeapFile	heapfile.cpp	/^const Status createHeapFile(const string fileName)$/;"	f
+curDirtyFlag	heapfile.h	/^   bool  	curDirtyFlag;   \/\/ true if page has been updated$/;"	m	class:HeapFile
+curPage	heapfile.h	/^   Page* 	curPage;	\/\/ data page currently pinned in buffer pool$/;"	m	class:HeapFile
+curPage	page.h	/^    int		curPage;  \/\/ page number of current pointer$/;"	m	class:Page
+curPageNo	heapfile.h	/^   int   	curPageNo;	\/\/ page number of pinned page$/;"	m	class:HeapFile
+curRec	heapfile.h	/^   RID   	curRec;         \/\/ rid of last record returned$/;"	m	class:HeapFile
+data	page.h	/^    char 	data[PAGESIZE - DPFIXED]; $/;"	m	class:Page
+data	page.h	/^  void* data;$/;"	m	struct:Record
+db	testfile.cpp	/^DB db;$/;"	v
+deleteRecord	heapfile.cpp	/^const Status HeapFileScan::deleteRecord()$/;"	f	class:HeapFileScan
+deleteRecord	page.cpp	/^const Status Page::deleteRecord(const RID & rid)$/;"	f	class:Page
+destroy	db.cpp	/^const Status File::destroy(const string & fileName)$/;"	f	class:File
+destroyFile	db.cpp	/^const Status DB::destroyFile(const string & fileName) $/;"	f	class:DB
+destroyHeapFile	heapfile.cpp	/^const Status destroyHeapFile(const string fileName)$/;"	f
+dirty	buf.h	/^  bool 	dirty;	  \/\/ true if dirty;  false otherwise$/;"	m	class:BufDesc
+diskreads	buf.h	/^  int diskreads;   \/\/ Number of pages read from disk (including allocs)$/;"	m	struct:BufStats
+diskwrites	buf.h	/^  int diskwrites;  \/\/ Number of pages written back to disk$/;"	m	struct:BufStats
+disposePage	buf.cpp	/^const Status BufMgr::disposePage(File* file, const int pageNo) $/;"	f	class:BufMgr
+disposePage	db.cpp	/^const Status File::disposePage(const int pageNo)$/;"	f	class:File
+dummy	page.h	/^    short	dummy;	\/\/ for alignment purposes$/;"	m	class:Page
+dumpPage	page.cpp	/^void Page::dumpPage() const$/;"	f	class:Page
+e	heapfile.cpp	/^Error e;$/;"	v
+endScan	heapfile.cpp	/^const Status HeapFileScan::endScan()$/;"	f	class:HeapFileScan
+erase	db.cpp	/^Status OpenFileHashTbl::erase(const string fileName)$/;"	f	class:OpenFileHashTbl
+file	buf.h	/^	File*	file;    \/\/ pointer a file object (more on this below)$/;"	m	struct:hashBucket
+file	buf.h	/^  File* file;   \/\/ pointer to file object$/;"	m	class:BufDesc
+file	db.h	/^        File*   file;    \/\/ pointer to file object$/;"	m	struct:fileHashBucket
+fileHashBucket	db.h	/^struct fileHashBucket$/;"	s
+fileName	db.h	/^  string fileName;                    \/\/ The name of the file$/;"	m	class:File
+fileName	heapfile.h	/^  char		fileName[MAXNAMESIZE];   \/\/ name of file$/;"	m	struct:FileHdrPage
+filePtr	heapfile.h	/^   File* 	filePtr;        \/\/ underlying DB File object$/;"	m	class:HeapFile
+filter	heapfile.h	/^    const char* filter;      \/\/ comparison value of filter$/;"	m	class:HeapFileScan
+find	db.cpp	/^Status OpenFileHashTbl::find(const string fileName, File*& file)$/;"	f	class:OpenFileHashTbl
+firstPage	db.h	/^  int firstPage;                        \/\/ page # of first page in file$/;"	m	struct:__anon1
+firstPage	heapfile.h	/^  int		firstPage;	\/\/ pageNo of first data page in file$/;"	m	struct:FileHdrPage
+firstRecord	page.cpp	/^const Status Page::firstRecord(RID& firstRid) const$/;"	f	class:Page
+flushFile	buf.cpp	/^const Status BufMgr::flushFile(const File* file) $/;"	f	class:BufMgr
+fname	db.h	/^	string	fname;    \/\/ name of the file$/;"	m	struct:fileHashBucket
+frameNo	buf.h	/^	int	frameNo; \/\/ frame number of page in the buffer pool$/;"	m	struct:hashBucket
+frameNo	buf.h	/^  int	frameNo;  \/\/ frame # of frame$/;"	m	class:BufDesc
+freePtr	page.h	/^    short	freePtr; \/\/ offset of first free byte in data[]$/;"	m	class:Page
+freeSpace	page.h	/^    short	freeSpace; \/\/ number of bytes free in data[]$/;"	m	class:Page
+getBufStats	buf.h	/^  const BufStats & getBufStats() const \/\/ get buffer pool usage$/;"	f	class:BufMgr
+getFirstPage	db.cpp	/^const Status File::getFirstPage(int& pageNo) const$/;"	f	class:File
+getFreeSpace	page.cpp	/^const short Page::getFreeSpace() const$/;"	f	class:Page
+getNextPage	page.cpp	/^const Status Page::getNextPage(int& pageNo) const$/;"	f	class:Page
+getRecCnt	heapfile.cpp	/^const int HeapFile::getRecCnt() const$/;"	f	class:HeapFile
+getRecord	heapfile.cpp	/^const Status HeapFile::getRecord(const RID &  rid, Record & rec)$/;"	f	class:HeapFile
+getRecord	heapfile.cpp	/^const Status HeapFileScan::getRecord(Record & rec)$/;"	f	class:HeapFileScan
+getRecord	page.cpp	/^const Status Page::getRecord(const RID & rid, Record & rec)$/;"	f	class:Page
+hash	bufHash.cpp	/^int BufHashTbl::hash(const File* file, const int pageNo)$/;"	f	class:BufHashTbl
+hash	db.cpp	/^int OpenFileHashTbl::hash(const string fileName)$/;"	f	class:OpenFileHashTbl
+hashBucket	buf.h	/^struct hashBucket$/;"	s
+hashTable	buf.h	/^  BufHashTbl*    hashTable;  	\/\/ hash table mapping (File, page) to frame$/;"	m	class:BufMgr
+hdrDirtyFlag	heapfile.h	/^   bool		hdrDirtyFlag;   \/\/ true if header page has been updated$/;"	m	class:HeapFile
+headerPage	heapfile.h	/^   FileHdrPage*  headerPage;	\/\/ pinned file header page in buffer pool$/;"	m	class:HeapFile
+headerPageNo	heapfile.h	/^   int		headerPageNo;	\/\/ page number of header page$/;"	m	class:HeapFile
+ht	buf.h	/^    hashBucket**  ht; \/\/ actual hash table$/;"	m	class:BufHashTbl
+ht	db.h	/^    fileHashBucket**  ht; \/\/ actual hash table$/;"	m	class:OpenFileHashTbl
+init	page.cpp	/^void Page::init(int pageNo)$/;"	f	class:Page
+insert	bufHash.cpp	/^Status BufHashTbl::insert(const File* file, const int pageNo, const int frameNo) {$/;"	f	class:BufHashTbl
+insert	db.cpp	/^Status OpenFileHashTbl::insert(const string fileName, File* file ) $/;"	f	class:OpenFileHashTbl
+insertRecord	heapfile.cpp	/^const Status InsertFileScan::insertRecord(const Record & rec, RID& outRid)$/;"	f	class:InsertFileScan
+insertRecord	page.cpp	/^const Status Page::insertRecord(const Record & rec, RID& rid)$/;"	f	class:Page
+intread	db.cpp	/^const Status File::intread(int pageNo, Page* pagePtr) const$/;"	f	class:File
+intwrite	db.cpp	/^const Status File::intwrite(const int pageNo, const Page* pagePtr)$/;"	f	class:File
+lastPage	heapfile.h	/^  int		lastPage;	\/\/ pageNo of last data page in file$/;"	m	struct:FileHdrPage
+length	heapfile.h	/^    int   length;            \/\/ length of filter attribute$/;"	m	class:HeapFileScan
+length	page.h	/^        short	length;  \/\/ equals -1 if slot is not in use$/;"	m	struct:slot_t
+length	page.h	/^  int length;$/;"	m	struct:Record
+listFree	db.cpp	/^void File::listFree()$/;"	f	class:File
+lookup	bufHash.cpp	/^Status BufHashTbl::lookup(const File* file, const int pageNo, int& frameNo) $/;"	f	class:BufHashTbl
+main	testfile.cpp	/^int main(int argc, char **argv)$/;"	f
+markDirty	heapfile.cpp	/^const Status HeapFileScan::markDirty()$/;"	f	class:HeapFileScan
+markScan	heapfile.cpp	/^const Status HeapFileScan::markScan()$/;"	f	class:HeapFileScan
+markedPageNo	heapfile.h	/^    int   markedPageNo;	\/\/ page number of pinned page$/;"	m	class:HeapFileScan
+markedRec	heapfile.h	/^    RID   markedRec;         \/\/ rid of last record returned$/;"	m	class:HeapFileScan
+matchRec	heapfile.cpp	/^const bool HeapFileScan::matchRec(const Record & rec) const$/;"	f	class:HeapFileScan
+next	buf.h	/^	hashBucket* 	next;	 \/\/ next node in the hash table$/;"	m	struct:hashBucket
+next	db.h	/^	fileHashBucket* next;	 \/\/ next node in the hash table$/;"	m	struct:fileHashBucket
+nextFree	db.h	/^  int nextFree;                         \/\/ page # of next page on free list$/;"	m	struct:__anon1
+nextPage	page.h	/^    int		nextPage; \/\/ forwards pointer$/;"	m	class:Page
+nextRecord	page.cpp	/^const Status Page::nextRecord (const RID &curRid, RID& nextRid) const$/;"	f	class:Page
+numBufs	buf.h	/^  int   	 numBufs;    	\/\/ Number of pages in buffer pool$/;"	m	class:BufMgr
+numPages	db.h	/^  int numPages;                         \/\/ total # of pages in file$/;"	m	struct:__anon1
+offset	heapfile.h	/^    int   offset;            \/\/ byte offset of filter attribute$/;"	m	class:HeapFileScan
+offset	page.h	/^        short	offset;  $/;"	m	struct:slot_t
+op	heapfile.h	/^    Operator op;             \/\/ comparison operator of filter$/;"	m	class:HeapFileScan
+open	db.cpp	/^const Status File::open()$/;"	f	class:File
+openCnt	db.h	/^  int openCnt;                        \/\/ # times file has been opened$/;"	m	class:File
+openFile	db.cpp	/^const Status DB::openFile(const string & fileName, File*& filePtr)$/;"	f	class:DB
+openFiles	db.h	/^  OpenFileHashTbl   openFiles;    \/\/ list of open files$/;"	m	class:DB
+operator ==	db.h	/^  bool operator == (const File & other) const$/;"	f	class:File
+pageCnt	heapfile.h	/^  int		pageCnt;	\/\/ number of pages$/;"	m	struct:FileHdrPage
+pageNo	buf.h	/^	int	pageNo;  \/\/ page number within a file$/;"	m	struct:hashBucket
+pageNo	buf.h	/^  int   pageNo; \/\/ page within file$/;"	m	class:BufDesc
+pageNo	page.h	/^    int  pageNo;$/;"	m	struct:RID
+pinCnt	buf.h	/^  int   pinCnt; \/\/ number of times this page has been pinned$/;"	m	class:BufDesc
+print	error.cpp	/^void Error::print(Status status)$/;"	f	class:Error
+printSelf	buf.cpp	/^void BufMgr::printSelf(void) $/;"	f	class:BufMgr
+readPage	buf.cpp	/^const Status BufMgr::readPage(File* file, const int PageNo, Page*& page)$/;"	f	class:BufMgr
+readPage	db.cpp	/^const Status File::readPage(const int pageNo, Page* pagePtr) const$/;"	f	class:File
+recCnt	heapfile.h	/^  int		recCnt;		\/\/ record count$/;"	m	struct:FileHdrPage
+refbit	buf.h	/^  bool  refbit;	 \/\/ has this buffer frame been reference recently$/;"	m	class:BufDesc
+remove	bufHash.cpp	/^Status BufHashTbl::remove(const File* file, const int pageNo) {$/;"	f	class:BufHashTbl
+resetScan	heapfile.cpp	/^const Status HeapFileScan::resetScan()$/;"	f	class:HeapFileScan
+scanNext	heapfile.cpp	/^const Status HeapFileScan::scanNext(RID& outRid)$/;"	f	class:HeapFileScan
+setNextPage	page.cpp	/^const Status Page::setNextPage(int pageNo)$/;"	f	class:Page
+slot	page.h	/^    slot_t 	slot[1]; \/\/ first element of slot array - grows backwards!$/;"	m	class:Page
+slotCnt	page.h	/^    short	slotCnt; \/\/ number of slots in use;$/;"	m	class:Page
+slotNo	page.h	/^    int	 slotNo;$/;"	m	struct:RID
+slot_t	page.h	/^struct slot_t {$/;"	s
+startScan	heapfile.cpp	/^const Status HeapFileScan::startScan(const int offset_,$/;"	f	class:HeapFileScan
+type	heapfile.h	/^    Datatype type;           \/\/ datatype of filter attribute$/;"	m	class:HeapFileScan
+unPinPage	buf.cpp	/^const Status BufMgr::unPinPage(File* file, const int PageNo, $/;"	f	class:BufMgr
+unixFile	db.h	/^  int unixFile;                       \/\/ unix file stream for file$/;"	m	class:File
+valid	buf.h	/^  bool 	valid;   \/\/ true if page is valid$/;"	m	class:BufDesc
+writePage	db.cpp	/^const Status File::writePage(const int pageNo, const Page *pagePtr)$/;"	f	class:File
+~BufHashTbl	bufHash.cpp	/^BufHashTbl::~BufHashTbl()$/;"	f	class:BufHashTbl
+~BufMgr	buf.cpp	/^BufMgr::~BufMgr() {$/;"	f	class:BufMgr
+~DB	db.cpp	/^DB::~DB()$/;"	f	class:DB
+~File	db.cpp	/^File::~File()$/;"	f	class:File
+~HeapFile	heapfile.cpp	/^HeapFile::~HeapFile()$/;"	f	class:HeapFile
+~HeapFileScan	heapfile.cpp	/^HeapFileScan::~HeapFileScan()$/;"	f	class:HeapFileScan
+~InsertFileScan	heapfile.cpp	/^InsertFileScan::~InsertFileScan()$/;"	f	class:InsertFileScan
+~OpenFileHashTbl	db.cpp	/^OpenFileHashTbl::~OpenFileHashTbl()$/;"	f	class:OpenFileHashTbl

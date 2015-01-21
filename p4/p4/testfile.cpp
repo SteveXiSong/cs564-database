@@ -23,7 +23,7 @@ int main(int argc, char **argv)
     Status status;
     RID newRid;
 	int deleted;
-  
+
     typedef struct {
         int i;
         float f;
@@ -51,7 +51,7 @@ int main(int argc, char **argv)
     // ignore the error return
 
     status = createHeapFile("dummy.02");
-    if (status != OK) 
+    if (status != OK)
     {
 		cerr << "got err0r status return from  createHeapFile" << endl;
     	error.print(status);
@@ -79,10 +79,10 @@ int main(int argc, char **argv)
 		ridArray[i] = newRid;
 		//printf("next rid (%d.%d)\n",ridArray[i].pageNo, ridArray[i].slotNo);
 
-        if (status != OK) 
+        if (status != OK)
         {
             cout << "got err0r status return from insertrecord" << endl;
-            cout << "inserted " << i << "records into file dummy1 before error " 
+            cout << "inserted " << i << "records into file dummy1 before error "
                  << endl;
             error.print(status);
             exit(1);
@@ -99,7 +99,7 @@ int main(int argc, char **argv)
     cout << "pull 11th record from file dummy.02 using file->getRecord() " << endl;
     file1 = new HeapFile("dummy.02", status); // open the file
     if (status != OK) error.print(status);
-    else 
+    else
     {
 		// get every record
 		for (i=0;i<num;i=i+11)
@@ -126,10 +126,10 @@ int main(int argc, char **argv)
     cout << "scan file dummy.02 " << endl;
     scan1 = new HeapFileScan("dummy.02", status);
     if (status != OK) error.print(status);
-    else 
+    else
     {
 		scan1->startScan(0, 0, STRING, NULL, EQ);
-		i = 0; 
+		i = 0;
 		while ((status = scan1->scanNext(rec2Rid)) != FILEEOF)
 		{
 			// reconstruct record i
@@ -158,10 +158,10 @@ int main(int argc, char **argv)
     cout << endl << "scan file dummy.02 " << endl;
     scan1 = new HeapFileScan("dummy.02", status);
     if (status != OK) error.print(status);
-    else 
+    else
     {
 		scan1->startScan(0, 0, STRING, NULL, EQ);
-		i = 0; 
+		i = 0;
 		while ((status = scan1->scanNext(rec2Rid)) != FILEEOF)
 		{
 			// reconstruct record i
@@ -184,7 +184,7 @@ int main(int argc, char **argv)
     scan1->endScan();
     delete scan1;
     scan1 = NULL;
-	
+
 
     // pull every 7th record from the file directly w/o opening a scan
     // by using the file->getRecord() method
@@ -192,7 +192,7 @@ int main(int argc, char **argv)
     cout << "pull every 7th record from file dummy.02 using file->getRecord() " << endl;
     file1 = new HeapFile("dummy.02", status); // open the file
     if (status != OK) error.print(status);
-    else 
+    else
     {
 		// get every 7th record
 		for (i=0;i<num;i=i+7)
@@ -223,7 +223,7 @@ int main(int argc, char **argv)
 
     scan1 = new HeapFileScan("dummy.02", status);
     if (status != OK) error.print(status);
-    else 
+    else
     {
         scan1->startScan(0, 0, STRING, NULL, EQ);
 		i = 0;
@@ -235,7 +235,7 @@ int main(int argc, char **argv)
 			if ((i % 2) != 0)
 			{
 				// printf("deleting record %d with rid(%d.%d)\n",i,rec2Rid. pageNo, rec2Rid.slotNo);
-				status = scan1->deleteRecord(); 
+				status = scan1->deleteRecord();
 				deleted++;
 				if ((status != OK)  && ( status != NORECORDS))
 				{
@@ -260,7 +260,7 @@ int main(int argc, char **argv)
 
     scan1 = new HeapFileScan("dummy.02", status);
     if (status != OK) error.print(status);
-    else 
+    else
     {
         i = 0;
         scan1->startScan(0, 0, STRING, NULL, EQ);
@@ -281,7 +281,7 @@ int main(int argc, char **argv)
         i--;
 
         if (status != FILEEOF) error.print(status);
-        scan1->endScan(); 
+        scan1->endScan();
         delete scan1;
         scan1 = NULL;
 
@@ -299,7 +299,7 @@ int main(int argc, char **argv)
             }
             i++;
         }
-    
+
         scan1->endScan();
         delete scan1;
 
@@ -308,24 +308,24 @@ int main(int argc, char **argv)
             cout << "Err0r.   scan should have returned " << (num+1) / 2
                  << " records!" << endl;
     }
-	
-		
+
+
 
 
     status = destroyHeapFile("dummy.02");
-    if (status != OK) 
+    if (status != OK)
     {
 	cerr << "got err0r status return from  destroyHeapFile" << endl;
     	error.print(status);
     }
     status = createHeapFile("dummy.03");
-    if (status != OK) 
+    if (status != OK)
     {
 	cerr << "got err0r status return from  createHeapFile" << endl;
     	error.print(status);
     }
     iScan = new InsertFileScan("dummy.03", status);
-    if (status != OK) 
+    if (status != OK)
     {
 	cout << "got err0r status return from new insertFileScan call" << endl;
     	error.print(status);
@@ -346,7 +346,7 @@ int main(int argc, char **argv)
         dbrec1.length = rec1Len;
 
         status = iScan->insertRecord(dbrec1, newRid);
-        if (status != OK) 
+        if (status != OK)
         {
             cout << "got err0r status return from insertrecord" << endl;
             error.print(status);
@@ -357,7 +357,7 @@ int main(int argc, char **argv)
     cout << "inserted " << num << " variable sized records successfully into dummy.03" << endl;
     cout << "smallest record was " << smallest << " bytes, largest was "
          << largest << " bytes" << endl;
-    
+
     delete iScan;
     file1 = NULL;
 
@@ -365,7 +365,7 @@ int main(int argc, char **argv)
     j = num/2;
     scan1 = new HeapFileScan("dummy.03", status);
     if (status != OK) error.print(status);
-    else 
+    else
     {
         scan1->startScan(0, sizeof(int), INTEGER, (char*)&j, LT);
         i = 0;
@@ -406,13 +406,13 @@ int main(int argc, char **argv)
     status = scan1->startScan(Ioffset, sizeof(int), INTEGER,
                               (char*)&Ivalue, LT);
     if (status != OK) error.print(status);
-  
+
     scan2 = new HeapFileScan("dummy.03", status);
     if (status != OK) error.print(status);
     status = scan2->startScan(Foffset, sizeof(float), FLOAT,
                               (char*)&Fvalue, GTE);
     if (status != OK) error.print(status);
-    else 
+    else
     {
         int count = 0;
         for(i = 0; i < num; i++)
@@ -436,7 +436,7 @@ int main(int argc, char **argv)
     delete scan1;
     delete scan2;
     scan1 = scan2 = NULL;
-	
+
     cout << endl;
     cout << "Destroy dummy.03" << endl;
     if ((status = destroyHeapFile("dummy.03")) != OK) {
@@ -445,14 +445,14 @@ int main(int argc, char **argv)
     }
 
     status = createHeapFile("dummy.04");
-    if (status != OK) 
+    if (status != OK)
     {
 	cerr << "got err0r status return from  createHeapFile" << endl;
     	error.print(status);
     }
 
     iScan = new InsertFileScan("dummy.04", status);
-    if (status != OK) 
+    if (status != OK)
     {
 	cerr << "got err0r status return from new insertFileScan" << endl;
     	error.print(status);
@@ -466,7 +466,7 @@ int main(int argc, char **argv)
         dbrec1.data = &rec1;
         dbrec1.length = sizeof(RECORD);
         status = iScan->insertRecord(dbrec1, newRid);
-        if (status != OK) 
+        if (status != OK)
         {
             cout << "got err0r status return from insertrecord" << endl;
             error.print(status);
@@ -474,8 +474,8 @@ int main(int argc, char **argv)
     }
     delete iScan;
     file1 = NULL;
-	
-	
+
+
 
     //bufMgr->clearBufStats();
     int numDeletes = 0;
@@ -486,7 +486,7 @@ int main(int argc, char **argv)
     if (status != OK) error.print(status);
     status = scan1->startScan(0, 0, STRING, NULL, EQ);
     if (status != OK) error.print(status);
-    else 
+    else
     {
   	i = 0;
   	while ((status = scan1->scanNext(rec2Rid)) != FILEEOF)
@@ -515,7 +515,7 @@ int main(int argc, char **argv)
 	if (status != FILEEOF) error.print(status);
   	cout << "scan file1 saw " << i << " records " << endl;
 	if (i != num)
-            cout << "Err0r. scan should have returned " << (int) num 
+            cout << "Err0r. scan should have returned " << (int) num
 		<< " records!!" << endl;
         cout << "number of records deleted by scan " << numDeletes << endl;
 	if (numDeletes != 1000)
@@ -523,7 +523,7 @@ int main(int argc, char **argv)
     }
     cout << endl;
     delete scan1;
-	
+
 
 
     // rescan.  should see 1000 fewer records
@@ -539,7 +539,7 @@ int main(int argc, char **argv)
     cout << "should have seen 1000 fewer records after deletions" << endl;
     cout << "saw " << i << "records" << endl;
     delete scan1;
-	
+
 
     // perform filtered scan #1
     scan1 = new HeapFileScan("dummy.04", status);
@@ -548,7 +548,7 @@ int main(int argc, char **argv)
     int filterVal1 = num * 3 / 4;
     cout << endl << "Filtered scan matching i field GTE than " << filterVal1 << endl;
     status = scan1->startScan(0, sizeof(int), INTEGER, (char *) &filterVal1, GTE);
-    if (status != OK) 
+    if (status != OK)
     {
 	cerr << "got err0r status return from startScan" << endl;
     	error.print(status);
@@ -570,7 +570,7 @@ int main(int argc, char **argv)
                      << "i val is " << currRec->i << endl;
                 exit(1);
             }
-            
+
             i++;
         }
         if (status != FILEEOF) error.print(status);
@@ -581,7 +581,7 @@ int main(int argc, char **argv)
     }
 
     delete scan1;
-	
+
     // perform filtered scan #2
     scan1 = new HeapFileScan("dummy.04", status);
     if (status != OK) error.print(status);
@@ -589,7 +589,7 @@ int main(int argc, char **argv)
     float filterVal2 = num * 9 / 10;
     cout << endl << "Filtered scan matching f field GT than " << filterVal2 << endl;
     status = scan1->startScan(sizeof(int), sizeof(float), FLOAT, (char *) &filterVal2, GT);
-    if (status != OK) 
+    if (status != OK)
     {
 	cerr << "got err0r status return from startScan" << endl;
     	error.print(status);
@@ -621,11 +621,11 @@ int main(int argc, char **argv)
                  << endl;
     }
     delete scan1;
-	
-	
+
+
     // open up the heapFile
     file1 = new HeapFile("dummy.04", status);
-    if (status != OK) 
+    if (status != OK)
     {
 	cerr << "got err0r status return from new HeapFile" << endl;
     	error.print(status);
@@ -648,7 +648,7 @@ int main(int argc, char **argv)
         cout << "should have returned BADSCANPARM, actually returned: " << endl;
         error.print(status);
     }
-    
+
     // add insert for bigger than pagesized record
     iScan = new InsertFileScan("dummy.04", status);
     if (status != OK) error.print(status);
@@ -672,7 +672,7 @@ int main(int argc, char **argv)
     delete scan1;
 
     // MORE ERROR HANDLING TESTS HERE
-  
+
     // get rid of the file
     if ((status = destroyHeapFile("dummy.04")) != OK) {
         cout << endl << "got err0r status return from destroy file" << endl;

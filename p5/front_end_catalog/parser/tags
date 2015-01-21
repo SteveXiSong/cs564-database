@@ -1,0 +1,302 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALIAS	parse.h	/^	} ALIAS;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon25
+ATTRTYPE	parse.h	/^	} ATTRTYPE;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon21
+ATTRVAL	parse.h	/^	} ATTRVAL;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon20
+ATTR_DESCR	parse.h	/^} ATTR_DESCR;$/;"	t	typeref:struct:__anon1
+ATTR_VAL	parse.h	/^} ATTR_VAL;$/;"	t	typeref:struct:__anon3
+BUILD	parse.h	/^	} BUILD;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon11
+CC	makefile	/^CC =		g++$/;"	m
+CHAR_TYPE	y.tab.h	/^     CHAR_TYPE = 284,$/;"	e	enum:yytokentype
+CHAR_TYPE	y.tab.h	111;"	d
+CREATE	parse.h	/^	} CREATE;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon9
+CXX	makefile	/^CXX =		g++$/;"	m
+CXXFLAGS	makefile	/^CXXFLAGS =	$(INC) -g -Wall $(DEBUG)$/;"	m
+DELETE	parse.h	/^	} DELETE;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon8
+DESTROY	parse.h	/^	} DESTROY;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon10
+DROP	parse.h	/^	} DROP;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon12
+ERRFP	interp.cpp	23;"	d	file:
+E_DUPLICATEATTR	interp.cpp	18;"	d	file:
+E_INCOMPATIBLE	interp.cpp	11;"	d	file:
+E_INVFLOATSIZE	interp.cpp	15;"	d	file:
+E_INVFORMATSTRING	interp.cpp	16;"	d	file:
+E_INVINTSIZE	interp.cpp	14;"	d	file:
+E_INVSTRLEN	interp.cpp	17;"	d	file:
+E_NOLENGTH	interp.cpp	13;"	d	file:
+E_OK	interp.cpp	10;"	d	file:
+E_STRINGTOOLONG	interp.cpp	20;"	d	file:
+E_TOOLONG	interp.cpp	19;"	d	file:
+E_TOOMANYATTRS	interp.cpp	12;"	d	file:
+FLOATCHAR	parse.h	39;"	d
+HELP	parse.h	/^	} HELP;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon15
+INC	makefile	/^INC =		-I..$/;"	m
+INSERT	parse.h	/^	} INSERT;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon7
+INTCHAR	parse.h	38;"	d
+INT_TYPE	y.tab.h	/^     INT_TYPE = 282,$/;"	e	enum:yytokentype
+INT_TYPE	y.tab.h	109;"	d
+JOIN	parse.h	/^	} JOIN;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon17
+LD	makefile	/^LD =		ld$/;"	m
+LDFLAGS	makefile	/^LDFLAGS =	$/;"	m
+LEX	makefile	/^LEX =		flex$/;"	m
+LFLAGS	makefile	/^LFLAGS =        -I -t$/;"	m
+LIBS	makefile	/^LIBS =		$/;"	m
+LIST	parse.h	/^	} LIST;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon24
+LOAD	parse.h	/^	} LOAD;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon13
+MAXATTRS	interp.cpp	24;"	d	file:
+MAXCHAR	scanhelp.cpp	3;"	d	file:
+MAXNODE	nodes.cpp	12;"	d	file:
+MAXSTRINGLEN	scanhelp.cpp	64;"	d	file:
+NODE	parse.h	/^} NODE;$/;"	t	typeref:struct:node
+NODEKIND	parse.h	/^} NODEKIND;$/;"	t	typeref:enum:__anon4
+NOTOKEN	y.tab.h	/^     NOTOKEN = 292,$/;"	e	enum:yytokentype
+NOTOKEN	y.tab.h	119;"	d
+N_ALIAS	parse.h	/^    N_ALIAS$/;"	e	enum:__anon4
+N_ATTRTYPE	parse.h	/^    N_ATTRTYPE,$/;"	e	enum:__anon4
+N_ATTRVAL	parse.h	/^    N_ATTRVAL,$/;"	e	enum:__anon4
+N_BUILD	parse.h	/^    N_BUILD,$/;"	e	enum:__anon4
+N_CREATE	parse.h	/^    N_CREATE,$/;"	e	enum:__anon4
+N_DELETE	parse.h	/^    N_DELETE,$/;"	e	enum:__anon4
+N_DESTROY	parse.h	/^    N_DESTROY,$/;"	e	enum:__anon4
+N_DROP	parse.h	/^    N_DROP,$/;"	e	enum:__anon4
+N_HELP	parse.h	/^    N_HELP,$/;"	e	enum:__anon4
+N_INSERT	parse.h	/^    N_INSERT,$/;"	e	enum:__anon4
+N_JOIN	parse.h	/^    N_JOIN,$/;"	e	enum:__anon4
+N_LIST	parse.h	/^    N_LIST,$/;"	e	enum:__anon4
+N_LOAD	parse.h	/^    N_LOAD,$/;"	e	enum:__anon4
+N_PRIMATTR	parse.h	/^    N_PRIMATTR,$/;"	e	enum:__anon4
+N_PRINT	parse.h	/^    N_PRINT,$/;"	e	enum:__anon4
+N_QUALATTR	parse.h	/^    N_QUALATTR,$/;"	e	enum:__anon4
+N_QUERY	parse.h	/^    N_QUERY,$/;"	e	enum:__anon4
+N_REBUILD	parse.h	/^    N_REBUILD,$/;"	e	enum:__anon4
+N_SELECT	parse.h	/^    N_SELECT,$/;"	e	enum:__anon4
+N_VALUE	parse.h	/^    N_VALUE,$/;"	e	enum:__anon4
+OBJS	makefile	/^OBJS =		scan.o parse.o nodes.o interp.o yywrap.o$/;"	m
+PARSE_H	parse.h	2;"	d
+PRIMATTR	parse.h	/^	} PRIMATTR;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon19
+PRINT	parse.h	/^	} PRINT;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon14
+PROMPT	parse.h	41;"	d
+QUALATTR	parse.h	/^	} QUALATTR;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon18
+QUERY	parse.h	/^	} QUERY;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon6
+REAL_TYPE	y.tab.h	/^     REAL_TYPE = 283,$/;"	e	enum:yytokentype
+REAL_TYPE	y.tab.h	110;"	d
+REL_ATTR	parse.h	/^} REL_ATTR;$/;"	t	typeref:struct:__anon2
+RW_ALL	y.tab.h	/^     RW_ALL = 274,$/;"	e	enum:yytokentype
+RW_ALL	y.tab.h	101;"	d
+RW_AND	y.tab.h	/^     RW_AND = 278,$/;"	e	enum:yytokentype
+RW_AND	y.tab.h	105;"	d
+RW_AS	y.tab.h	/^     RW_AS = 276,$/;"	e	enum:yytokentype
+RW_AS	y.tab.h	103;"	d
+RW_BUILD	y.tab.h	/^     RW_BUILD = 259,$/;"	e	enum:yytokentype
+RW_BUILD	y.tab.h	86;"	d
+RW_CREATE	y.tab.h	/^     RW_CREATE = 258,$/;"	e	enum:yytokentype
+RW_CREATE	y.tab.h	85;"	d
+RW_DELETE	y.tab.h	/^     RW_DELETE = 271,$/;"	e	enum:yytokentype
+RW_DELETE	y.tab.h	98;"	d
+RW_DESTROY	y.tab.h	/^     RW_DESTROY = 262,$/;"	e	enum:yytokentype
+RW_DESTROY	y.tab.h	89;"	d
+RW_DROP	y.tab.h	/^     RW_DROP = 261,$/;"	e	enum:yytokentype
+RW_DROP	y.tab.h	88;"	d
+RW_FROM	y.tab.h	/^     RW_FROM = 275,$/;"	e	enum:yytokentype
+RW_FROM	y.tab.h	102;"	d
+RW_HELP	y.tab.h	/^     RW_HELP = 265,$/;"	e	enum:yytokentype
+RW_HELP	y.tab.h	92;"	d
+RW_INSERT	y.tab.h	/^     RW_INSERT = 270,$/;"	e	enum:yytokentype
+RW_INSERT	y.tab.h	97;"	d
+RW_INTO	y.tab.h	/^     RW_INTO = 268,$/;"	e	enum:yytokentype
+RW_INTO	y.tab.h	95;"	d
+RW_LOAD	y.tab.h	/^     RW_LOAD = 264,$/;"	e	enum:yytokentype
+RW_LOAD	y.tab.h	91;"	d
+RW_NOT	y.tab.h	/^     RW_NOT = 280,$/;"	e	enum:yytokentype
+RW_NOT	y.tab.h	107;"	d
+RW_NUMBUCKETS	y.tab.h	/^     RW_NUMBUCKETS = 273,$/;"	e	enum:yytokentype
+RW_NUMBUCKETS	y.tab.h	100;"	d
+RW_OR	y.tab.h	/^     RW_OR = 279,$/;"	e	enum:yytokentype
+RW_OR	y.tab.h	106;"	d
+RW_PRIMARY	y.tab.h	/^     RW_PRIMARY = 272,$/;"	e	enum:yytokentype
+RW_PRIMARY	y.tab.h	99;"	d
+RW_PRINT	y.tab.h	/^     RW_PRINT = 263,$/;"	e	enum:yytokentype
+RW_PRINT	y.tab.h	90;"	d
+RW_QUIT	y.tab.h	/^     RW_QUIT = 266,$/;"	e	enum:yytokentype
+RW_QUIT	y.tab.h	93;"	d
+RW_REBUILD	y.tab.h	/^     RW_REBUILD = 260,$/;"	e	enum:yytokentype
+RW_REBUILD	y.tab.h	87;"	d
+RW_SELECT	y.tab.h	/^     RW_SELECT = 267,$/;"	e	enum:yytokentype
+RW_SELECT	y.tab.h	94;"	d
+RW_TABLE	y.tab.h	/^     RW_TABLE = 277,$/;"	e	enum:yytokentype
+RW_TABLE	y.tab.h	104;"	d
+RW_VALUES	y.tab.h	/^     RW_VALUES = 281,$/;"	e	enum:yytokentype
+RW_VALUES	y.tab.h	108;"	d
+RW_WHERE	y.tab.h	/^     RW_WHERE = 269,$/;"	e	enum:yytokentype
+RW_WHERE	y.tab.h	96;"	d
+SELECT	parse.h	/^	} SELECT;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon16
+SRCS	makefile	/^SRCS =		scan.l parse.y nodes.cpp interp.cpp yywrap.c$/;"	m
+STRCHAR	parse.h	40;"	d
+T_EOF	y.tab.h	/^     T_EOF = 291,$/;"	e	enum:yytokentype
+T_EOF	y.tab.h	118;"	d
+T_EQ	y.tab.h	/^     T_EQ = 285,$/;"	e	enum:yytokentype
+T_EQ	y.tab.h	112;"	d
+T_GE	y.tab.h	/^     T_GE = 289,$/;"	e	enum:yytokentype
+T_GE	y.tab.h	116;"	d
+T_GT	y.tab.h	/^     T_GT = 288,$/;"	e	enum:yytokentype
+T_GT	y.tab.h	115;"	d
+T_INT	y.tab.h	/^     T_INT = 293,$/;"	e	enum:yytokentype
+T_INT	y.tab.h	120;"	d
+T_LE	y.tab.h	/^     T_LE = 287,$/;"	e	enum:yytokentype
+T_LE	y.tab.h	114;"	d
+T_LT	y.tab.h	/^     T_LT = 286,$/;"	e	enum:yytokentype
+T_LT	y.tab.h	113;"	d
+T_NE	y.tab.h	/^     T_NE = 290,$/;"	e	enum:yytokentype
+T_NE	y.tab.h	117;"	d
+T_QSTRING	y.tab.h	/^     T_QSTRING = 296,$/;"	e	enum:yytokentype
+T_QSTRING	y.tab.h	123;"	d
+T_REAL	y.tab.h	/^     T_REAL = 294,$/;"	e	enum:yytokentype
+T_REAL	y.tab.h	121;"	d
+T_SHELL_CMD	y.tab.h	/^     T_SHELL_CMD = 297$/;"	e	enum:yytokentype
+T_SHELL_CMD	y.tab.h	124;"	d
+T_STRING	y.tab.h	/^     T_STRING = 295,$/;"	e	enum:yytokentype
+T_STRING	y.tab.h	122;"	d
+VALUE	parse.h	/^	} VALUE;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::__anon22
+YACC	makefile	/^YACC =		bison$/;"	m
+YFLAGS	makefile	/^YFLAGS =        -y -d$/;"	m
+YYSTYPE	y.tab.h	/^typedef union YYSTYPE$/;"	u
+YYSTYPE	y.tab.h	/^} YYSTYPE;$/;"	t	typeref:union:YYSTYPE
+YYSTYPE_IS_DECLARED	y.tab.h	148;"	d
+YYSTYPE_IS_TRIVIAL	y.tab.h	146;"	d
+YYTOKENTYPE	y.tab.h	38;"	d
+alias	parse.h	/^	  char *alias;$/;"	m	struct:node::__anon5::__anon25
+alias_node	nodes.cpp	/^NODE *alias_node(char *relname, char *alias)$/;"	f
+attr1	interp.cpp	/^static attrInfo attr1;$/;"	v	file:
+attr2	interp.cpp	/^static attrInfo attr2;$/;"	v	file:
+attrLen	parse.h	/^  int attrLen;                          \/\/ length of attribute$/;"	m	struct:__anon1
+attrList	interp.cpp	/^static attrInfo attrList[MAXATTRS];$/;"	v	file:
+attrName	parse.h	/^  char *attrName;                       \/\/ attribute name$/;"	m	struct:__anon2
+attrName	parse.h	/^  char *attrName;                       \/\/ attribute name$/;"	m	struct:__anon3
+attrName	parse.h	/^  char *attrName;                       \/\/ relation name$/;"	m	struct:__anon1
+attrType	parse.h	/^  int attrType;                         \/\/ type of attribute$/;"	m	struct:__anon1
+attr_descrs	interp.cpp	/^static ATTR_DESCR attr_descrs[MAXATTRS + 1];$/;"	v	file:
+attrlist	parse.h	/^	    struct node *attrlist;$/;"	m	struct:node::__anon5::__anon6	typeref:struct:node::__anon5::__anon6::node
+attrlist	parse.h	/^	    struct node *attrlist;$/;"	m	struct:node::__anon5::__anon7	typeref:struct:node::__anon5::__anon7::node
+attrlist	parse.h	/^	    struct node *attrlist;$/;"	m	struct:node::__anon5::__anon9	typeref:struct:node::__anon5::__anon9::node
+attrname	parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon5::__anon11
+attrname	parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon5::__anon12
+attrname	parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon5::__anon18
+attrname	parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon5::__anon19
+attrname	parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon5::__anon20
+attrname	parse.h	/^	    char *attrname;$/;"	m	struct:node::__anon5::__anon21
+attrtype_node	nodes.cpp	/^NODE *attrtype_node(char *attrname, int type \/* char *type *\/)$/;"	f
+attrval_node	nodes.cpp	/^NODE *attrval_node(char *attrname, NODE *value)$/;"	f
+build_node	nodes.cpp	/^NODE *build_node(char *relname, char *attrname, int nbuckets)$/;"	f
+charpool	scanhelp.cpp	/^static char charpool[MAXCHAR];          \/\/ buffer for string allocation$/;"	v	file:
+charptr	scanhelp.cpp	/^static int charptr = 0;$/;"	v	file:
+cleanup_func	nodes.cpp	/^static void (*cleanup_func)() = NULL;$/;"	v	file:
+create_node	nodes.cpp	/^NODE *create_node(char *relname, NODE *attrlist, NODE *primattr)$/;"	f
+delete_node	nodes.cpp	/^NODE *delete_node(char *relname, NODE *qual)$/;"	f
+destroy_node	nodes.cpp	/^NODE *destroy_node(char *relname)$/;"	f
+drop_node	nodes.cpp	/^NODE *drop_node(char *relname, char *attrname)$/;"	f
+echo_query	interp.cpp	/^static void echo_query(NODE *n)$/;"	f	file:
+filename	parse.h	/^	    char *filename;$/;"	m	struct:node::__anon5::__anon13
+find_match_in_alias	nodes.cpp	/^char *find_match_in_alias(NODE *alias, char *rel_alias)$/;"	f
+float_node	nodes.cpp	/^NODE *float_node(float rval)$/;"	f
+get_id	scanhelp.cpp	/^static int get_id(char *s)$/;"	f	file:
+get_qstring	scanhelp.cpp	/^static char *get_qstring(char *qstring, int len)$/;"	f	file:
+help_node	nodes.cpp	/^NODE *help_node(char *relname)$/;"	f
+ins_attrs	interp.cpp	/^static ATTR_VAL ins_attrs[MAXATTRS + 1];$/;"	v	file:
+insert_node	nodes.cpp	/^NODE *insert_node(char *relname, NODE *attrlist)$/;"	f
+int_node	nodes.cpp	/^NODE *int_node(int ival)$/;"	f
+interp	interp.cpp	/^void interp(NODE *n)$/;"	f
+ival	parse.h	/^		int ival;$/;"	m	union:node::__anon5::__anon22::__anon23
+ival	y.tab.h	/^  int ival;$/;"	m	union:YYSTYPE
+join_node	nodes.cpp	/^NODE *join_node(NODE *joinattr1, int op, NODE *joinattr2)$/;"	f
+joinattr1	parse.h	/^	    struct node *joinattr1;$/;"	m	struct:node::__anon5::__anon17	typeref:struct:node::__anon5::__anon17::node
+joinattr2	parse.h	/^	    struct node *joinattr2;$/;"	m	struct:node::__anon5::__anon17	typeref:struct:node::__anon5::__anon17::node
+kind	parse.h	/^    NODEKIND kind;$/;"	m	struct:node
+len	parse.h	/^	    int len;$/;"	m	struct:node::__anon5::__anon22
+length_of	interp.cpp	/^static int length_of(NODE *n)$/;"	f	file:
+list_node	nodes.cpp	/^NODE *list_node(NODE *n)$/;"	f
+load_node	nodes.cpp	/^NODE *load_node(char *relname, char *filename)$/;"	f
+lower	scanhelp.cpp	/^static int lower(char *dst, char *src, int max)$/;"	f	file:
+merge_attr_value_list	nodes.cpp	/^NODE *merge_attr_value_list(NODE *attr_list, NODE *value_list)$/;"	f
+mk_attr_descrs	interp.cpp	/^static int mk_attr_descrs(NODE *list, ATTR_DESCR attr_descrs[])$/;"	f	file:
+mk_attrnames	interp.cpp	/^static int mk_attrnames(NODE *list, char *attrnames[], char *relname)$/;"	f	file:
+mk_ins_attrs	interp.cpp	/^static int mk_ins_attrs(NODE *list, ATTR_VAL ins_attrs[])$/;"	f	file:
+mk_qual_attrs	interp.cpp	/^static int mk_qual_attrs(NODE *list, REL_ATTR qual_attrs[],$/;"	f	file:
+mk_string	scanhelp.cpp	/^static char *mk_string(char *s, int len)$/;"	f	file:
+n	y.tab.h	/^  NODE *n;$/;"	m	union:YYSTYPE
+names	interp.cpp	/^static char *names[MAXATTRS + 1];$/;"	v	file:
+nbuckets	parse.h	/^	    int nbuckets;$/;"	m	struct:node::__anon5::__anon11
+nbuckets	parse.h	/^	    int nbuckets;$/;"	m	struct:node::__anon5::__anon19
+new_query	nodes.cpp	/^void new_query(void)$/;"	f
+newnode	nodes.cpp	/^NODE *newnode(int kind)$/;"	f
+next	parse.h	/^	  struct node *next;$/;"	m	struct:node::__anon5::__anon24	typeref:struct:node::__anon5::__anon24::node
+node	parse.h	/^typedef struct node {$/;"	s
+nodepool	nodes.cpp	/^static NODE nodepool[MAXNODE];$/;"	v	file:
+nodeptr	nodes.cpp	/^static int nodeptr = 0;$/;"	v	file:
+op	parse.h	/^	    int op;$/;"	m	struct:node::__anon5::__anon16
+op	parse.h	/^	    int op;$/;"	m	struct:node::__anon5::__anon17
+parse_format_string	interp.cpp	/^static int parse_format_string(int format, int *type, int *len)$/;"	f	file:
+prepend	nodes.cpp	/^NODE *prepend(NODE *n, NODE *list)$/;"	f
+primattr	parse.h	/^	    struct node *primattr;$/;"	m	struct:node::__anon5::__anon9	typeref:struct:node::__anon5::__anon9::node
+primattr_node	nodes.cpp	/^NODE *primattr_node(char *attrname, int nbuckets)$/;"	f
+print_attrdescrs	interp.cpp	/^static void print_attrdescrs(NODE *n)$/;"	f	file:
+print_attrnames	interp.cpp	/^static void print_attrnames(NODE *n)$/;"	f	file:
+print_attrvals	interp.cpp	/^static void print_attrvals(NODE *n)$/;"	f	file:
+print_error	interp.cpp	/^static void print_error(char *errmsg, int errval)$/;"	f	file:
+print_node	nodes.cpp	/^NODE *print_node(char *relname)$/;"	f
+print_op	interp.cpp	/^static void print_op(int op)$/;"	f	file:
+print_primattr	interp.cpp	/^static void print_primattr(NODE *n)$/;"	f	file:
+print_qual	interp.cpp	/^static void print_qual(NODE *n)$/;"	f	file:
+print_qualattr	interp.cpp	/^static void print_qualattr(NODE *n)$/;"	f	file:
+print_val	interp.cpp	/^static void print_val(NODE *n)$/;"	f	file:
+qual	parse.h	/^	    struct node *qual;$/;"	m	struct:node::__anon5::__anon6	typeref:struct:node::__anon5::__anon6::node
+qual	parse.h	/^	    struct node *qual;$/;"	m	struct:node::__anon5::__anon8	typeref:struct:node::__anon5::__anon8::node
+qual_attrs	interp.cpp	/^static REL_ATTR qual_attrs[MAXATTRS + 1];$/;"	v	file:
+qualattr_node	nodes.cpp	/^NODE *qualattr_node(char *relname, char *attrname)$/;"	f
+query_node	nodes.cpp	/^NODE *query_node(char *relname, NODE *attrlist, NODE *qual)$/;"	f
+quit	interp.cpp	/^void quit(void)$/;"	f
+rebuild_node	nodes.cpp	/^NODE *rebuild_node(char *relname, char *attrname, int nbuckets)$/;"	f
+register_cleanup_function	nodes.cpp	/^void register_cleanup_function(void (*func)())$/;"	f
+relName	parse.h	/^  char *relName;                        \/\/ relation name$/;"	m	struct:__anon2
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon10
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon11
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon12
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon13
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon14
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon15
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon18
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon6
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon7
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon8
+relname	parse.h	/^	    char *relname;$/;"	m	struct:node::__anon5::__anon9
+relname	parse.h	/^	  char *relname;$/;"	m	struct:node::__anon5::__anon25
+replace_alias_in_condition	nodes.cpp	/^NODE *replace_alias_in_condition(NODE *alias, NODE *where)$/;"	f
+replace_alias_in_qualattr_list	nodes.cpp	/^NODE *replace_alias_in_qualattr_list(NODE *alias, NODE *qualattr_list)$/;"	f
+reset_charptr	scanhelp.cpp	/^void reset_charptr(void)$/;"	f
+reset_parser	nodes.cpp	/^void reset_parser(void)$/;"	f
+reset_scanner	scanhelp.cpp	/^void reset_scanner(void)$/;"	f
+rval	parse.h	/^		float rval;$/;"	m	union:node::__anon5::__anon22::__anon23
+rval	y.tab.h	/^  float rval;$/;"	m	union:YYSTYPE
+selattr	parse.h	/^	    struct node *selattr;$/;"	m	struct:node::__anon5::__anon16	typeref:struct:node::__anon5::__anon16::node
+select_node	nodes.cpp	/^NODE *select_node(NODE *selattr, int op, NODE *value)$/;"	f
+self	parse.h	/^	  struct node *self;$/;"	m	struct:node::__anon5::__anon24	typeref:struct:node::__anon5::__anon24::node
+string_alloc	scanhelp.cpp	/^static char *string_alloc(int len)$/;"	f	file:
+string_node	nodes.cpp	/^NODE *string_node(char *s)$/;"	f
+sval	parse.h	/^		char *sval;$/;"	m	union:node::__anon5::__anon22::__anon23
+sval	y.tab.h	/^  char *sval;$/;"	m	union:YYSTYPE
+type	parse.h	/^	    int  type;$/;"	m	struct:node::__anon5::__anon21
+type	parse.h	/^	    int type;$/;"	m	struct:node::__anon5::__anon22
+type_of	interp.cpp	/^static int type_of(NODE *n)$/;"	f	file:
+u	parse.h	/^	    } u;$/;"	m	struct:node::__anon5::__anon22	typeref:union:node::__anon5::__anon22::__anon23
+u	parse.h	/^    } u;$/;"	m	struct:node	typeref:union:node::__anon5
+valLength	parse.h	/^  int valLength;                        \/\/ length if type = STRING_TYPE$/;"	m	struct:__anon3
+valType	parse.h	/^  int valType;                          \/\/ type of value$/;"	m	struct:__anon3
+value	parse.h	/^	    struct node *value;$/;"	m	struct:node::__anon5::__anon16	typeref:struct:node::__anon5::__anon16::node
+value	parse.h	/^	    struct node *value;$/;"	m	struct:node::__anon5::__anon20	typeref:struct:node::__anon5::__anon20::node
+value	parse.h	/^  void *value;                          \/\/ value for attribute$/;"	m	struct:__anon3
+value_of	interp.cpp	/^static void *value_of(NODE *n)$/;"	f	file:
+yystype	y.tab.h	147;"	d
+yytokentype	y.tab.h	/^   enum yytokentype {$/;"	g
+yywrap	yywrap.c	/^int yywrap()$/;"	f
